@@ -1,0 +1,15 @@
+{
+  "dataset_name": "Oxford Radar RobotCar Dataset (Medium Sample)",
+  "dataset_root": "C:\\Users\\worka\\research\\photonpinn\\radar\\data\\oxford_radar_robotcar\\medium",
+  "total_files": 17851,
+  "total_disk_bytes": 5370590090,
+  "total_disk_mb": 5121.793832778931,
+  "total_disk_gb": 5.0017517898231745,
+  "radar_scans_count": 252,
+  "extension_counts": {
+    ".timestamps": 9,
+    ".csv": 4,
+    ".bin": 8816,
+    ".png": 9022
+  }
+}
