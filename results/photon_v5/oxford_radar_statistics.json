@@ -1,0 +1,22 @@
+{
+  "sensor": "Navtech CTS350-X Frequency Modulated Continuous Wave (FMCW) Radar",
+  "num_scans_audited": 51,
+  "polar_tensor_shape": [
+    400,
+    3768
+  ],
+  "dtype": "float32 (normalized 0.0 to 1.0 from raw uint8)",
+  "num_azimuths": 400,
+  "num_range_bins": 3768,
+  "range_resolution_m": 0.0432,
+  "angular_resolution_deg": 0.9,
+  "angular_resolution_rad": 0.015707963267948967,
+  "maximum_range_m": 162.7776,
+  "intensity_min": 0.0,
+  "intensity_max": 0.5333333611488342,
+  "intensity_mean": 0.044860480170623926,
+  "intensity_std": 0.05862860323167315,
+  "nan_count": 0,
+  "inf_count": 0,
+  "valid_radar_data": true
+}

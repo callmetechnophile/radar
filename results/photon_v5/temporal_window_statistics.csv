@@ -1,0 +1,4 @@
+window_length_T,valid_sequences_count,rejected_sequences_count,mean_temporal_duration_s,mean_dt_s,min_internal_gap_s,max_internal_gap_s
+4,48,0,0.7502,0.2501,0.2472,0.2530
+8,44,0,1.7505,0.2501,0.2472,0.2530
+16,36,0,3.7512,0.2501,0.2472,0.2530

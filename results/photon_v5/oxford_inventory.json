@@ -1,0 +1,108 @@
+{
+  "dataset_name": "Oxford Radar RobotCar Dataset (Small Sample)",
+  "dataset_root": "C:\\Users\\worka\\research\\photonpinn\\data\\oxford_radar_robotcar\\small",
+  "total_files": 3629,
+  "total_disk_bytes": 1074818772,
+  "total_disk_mb": 1025.027057647705,
+  "total_disk_gb": 1.001002985984087,
+  "extension_counts": {
+    ".timestamps": 9,
+    ".csv": 4,
+    ".bin": 1789,
+    ".png": 1827
+  },
+  "directories": {
+    ".": {
+      "file_count": 9,
+      "size_bytes": 51205,
+      "size_mb": 0.04883289337158203
+    },
+    "gps": {
+      "file_count": 2,
+      "size_bytes": 5201322,
+      "size_mb": 4.960367202758789
+    },
+    "gt": {
+      "file_count": 1,
+      "size_bytes": 282189,
+      "size_mb": 0.2691164016723633
+    },
+    "lms_front": {
+      "file_count": 637,
+      "size_bytes": 6909984,
+      "size_mb": 6.589874267578125
+    },
+    "lms_rear": {
+      "file_count": 639,
+      "size_bytes": 7092000,
+      "size_mb": 6.763458251953125
+    },
+    "mono_left": {
+      "file_count": 217,
+      "size_bytes": 110425532,
+      "size_mb": 105.30999374389648
+    },
+    "mono_rear": {
+      "file_count": 217,
+      "size_bytes": 107730689,
+      "size_mb": 102.73999118804932
+    },
+    "mono_right": {
+      "file_count": 217,
+      "size_bytes": 96946092,
+      "size_mb": 92.45499801635742
+    },
+    "radar": {
+      "file_count": 51,
+      "size_bytes": 24796235,
+      "size_mb": 23.64753246307373
+    },
+    "stereo": {
+      "file_count": 0,
+      "size_bytes": 0,
+      "size_mb": 0.0
+    },
+    "stereo\\centre": {
+      "file_count": 204,
+      "size_bytes": 174882808,
+      "size_mb": 166.78124237060547
+    },
+    "stereo\\left": {
+      "file_count": 204,
+      "size_bytes": 172542936,
+      "size_mb": 164.54976654052734
+    },
+    "stereo\\right": {
+      "file_count": 204,
+      "size_bytes": 177370579,
+      "size_mb": 169.15376567840576
+    },
+    "velodyne_left": {
+      "file_count": 514,
+      "size_bytes": 96305564,
+      "size_mb": 91.84414291381836
+    },
+    "velodyne_right": {
+      "file_count": 512,
+      "size_bytes": 93401092,
+      "size_mb": 89.07422256469727
+    },
+    "vo": {
+      "file_count": 1,
+      "size_bytes": 880545,
+      "size_mb": 0.8397531509399414
+    }
+  },
+  "modalities": {
+    "radar_scans": 1827,
+    "radar_odometry": true,
+    "visual_odometry": true,
+    "lidar_velodyne_left": true,
+    "lidar_velodyne_right": true,
+    "lidar_lms_front": true,
+    "lidar_lms_rear": true,
+    "stereo_camera": true,
+    "mono_cameras": true,
+    "gps": true
+  }
+}
