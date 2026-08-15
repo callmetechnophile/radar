@@ -8,6 +8,10 @@ from module_07_temporal.timestamp_utils import (
 )
 from module_07_temporal.temporal_corruption import TemporalRadarCorruption
 from module_07_temporal.oxford_adapter import OxfordRadarAdapter
+from module_07_temporal.feature_extractor import OxfordRadarFeatureExtractor
+from module_07_temporal.baselines import PersistenceBaseline, FramewiseBaseline
+from module_07_temporal.mamba_temporal import OxfordMambaTemporalModel
+from module_07_temporal.metrics import compute_reconstruction_metrics
 
 __all__ = [
     "RadarFrame",
@@ -17,4 +21,9 @@ __all__ = [
     "interpolate_odometry_pose",
     "TemporalRadarCorruption",
     "OxfordRadarAdapter",
+    "OxfordRadarFeatureExtractor",
+    "PersistenceBaseline",
+    "FramewiseBaseline",
+    "OxfordMambaTemporalModel",
+    "compute_reconstruction_metrics",
 ]
