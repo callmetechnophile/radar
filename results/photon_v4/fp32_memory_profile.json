@@ -1,0 +1,58 @@
+{
+  "steps_5": {
+    "batch_size": 1,
+    "diffusion_steps": 5,
+    "peak_vram_allocated_bytes": 36514304,
+    "peak_vram_allocated_kb": 35658.5,
+    "peak_vram_allocated_mb": 34.82275390625,
+    "peak_vram_reserved_mb": 36.0,
+    "current_host_ram_mb": 0.03065204620361328,
+    "peak_host_ram_mb": 0.03352069854736328,
+    "activation_bytes": 43024,
+    "activation_kb": 42.015625,
+    "latency_ms": 491.7436999967322,
+    "throughput_seq_s": 2.033579687968845
+  },
+  "steps_10": {
+    "batch_size": 1,
+    "diffusion_steps": 10,
+    "peak_vram_allocated_bytes": 36520448,
+    "peak_vram_allocated_kb": 35664.5,
+    "peak_vram_allocated_mb": 34.82861328125,
+    "peak_vram_reserved_mb": 36.0,
+    "current_host_ram_mb": 0.039299964904785156,
+    "peak_host_ram_mb": 0.042885780334472656,
+    "activation_bytes": 43024,
+    "activation_kb": 42.015625,
+    "latency_ms": 66.68509996961802,
+    "throughput_seq_s": 14.995853653298918
+  },
+  "steps_20": {
+    "batch_size": 1,
+    "diffusion_steps": 20,
+    "peak_vram_allocated_bytes": 36520448,
+    "peak_vram_allocated_kb": 35664.5,
+    "peak_vram_allocated_mb": 34.82861328125,
+    "peak_vram_reserved_mb": 36.0,
+    "current_host_ram_mb": 0.04467487335205078,
+    "peak_host_ram_mb": 0.04832172393798828,
+    "activation_bytes": 43024,
+    "activation_kb": 42.015625,
+    "latency_ms": 112.41399997379631,
+    "throughput_seq_s": 8.895689151111961
+  },
+  "steps_50": {
+    "batch_size": 1,
+    "diffusion_steps": 50,
+    "peak_vram_allocated_bytes": 36520448,
+    "peak_vram_allocated_kb": 35664.5,
+    "peak_vram_allocated_mb": 34.82861328125,
+    "peak_vram_reserved_mb": 36.0,
+    "current_host_ram_mb": 0.05066490173339844,
+    "peak_host_ram_mb": 0.05515098571777344,
+    "activation_bytes": 43024,
+    "activation_kb": 42.015625,
+    "latency_ms": 271.2461000191979,
+    "throughput_seq_s": 3.68668895121155
+  }
+}

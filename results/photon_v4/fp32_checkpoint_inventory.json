@@ -1,0 +1,20 @@
+{
+  "photon_v0_checkpoint": {
+    "path": "C:\\Users\\worka\\research\\photonpinn\\radar\\checkpoints\\v0_frozen\\best_model.pt",
+    "disk_file_bytes": 296373,
+    "raw_tensor_bytes": 282264,
+    "metadata_overhead_bytes": 14109
+  },
+  "v2_physics_diffusion_checkpoint": {
+    "path": "C:\\Users\\worka\\research\\photonpinn\\radar\\checkpoints\\v2_physics\\v2_final\\seed_456\\best_model.pt",
+    "disk_file_bytes": 1198069,
+    "raw_tensor_bytes": 1182732,
+    "metadata_overhead_bytes": 15337
+  },
+  "total_checkpoint_disk_bytes": 1494442,
+  "total_checkpoint_disk_kb": 1459.416015625,
+  "total_checkpoint_disk_mb": 1.425210952758789,
+  "total_fp32_raw_tensor_bytes": 1466596,
+  "total_fp32_raw_tensor_kb": 1432.22265625,
+  "total_fp32_raw_tensor_mb": 1.3986549377441406
+}

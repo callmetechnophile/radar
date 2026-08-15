@@ -1,0 +1,5 @@
+hardware_key,hardware_name,flash_available_kb,flash_required_kb,flash_utilization_pct,flash_deficit_kb,sram_available_kb,sram_required_kb,sram_utilization_pct,sram_deficit_kb,feasibility_verdict
+Arduino_Uno_Q_Target,Arduino Uno Q (Microcontroller Target),2048,1432.22,69.93,0.00,512,80.00,15.62,0.00,FP32 MAY BE FEASIBLE (Requires C++ / Operator Validation)
+Arduino_Portenta_H7,Arduino Portenta H7 (Dual Cortex-M7/M4),2048,1432.22,69.93,0.00,1024,80.00,7.81,0.00,FP32 MAY BE FEASIBLE (Requires C++ / Operator Validation)
+ESP32_S3_Edge,ESP32-S3 AI Edge Node,8192,1432.22,17.48,0.00,512,80.00,15.62,0.00,FP32 MAY BE FEASIBLE (Requires C++ / Operator Validation)
+Raspberry_Pi_Zero_2W,Raspberry Pi Zero 2W (Cortex-A53),16777216,1432.22,0.01,0.00,524288,80.00,0.02,0.00,FP32 MAY BE FEASIBLE (Requires C++ / Operator Validation)

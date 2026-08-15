@@ -1,0 +1,50 @@
+{
+  "steps_5": {
+    "flops_photon_v0": 1737216,
+    "flops_mamba": 1605632,
+    "flops_state_extractor": 2548,
+    "flops_rule_scheduler": 50,
+    "flops_denoiser_per_step": 3211264,
+    "flops_diffusion_total": 16076800,
+    "flops_physics_head": 67584,
+    "total_flops": 17884198,
+    "diffusion_steps": 5,
+    "diffusion_pct_flops": 89.89388285681024
+  },
+  "steps_10": {
+    "flops_photon_v0": 1737216,
+    "flops_mamba": 1605632,
+    "flops_state_extractor": 2548,
+    "flops_rule_scheduler": 50,
+    "flops_denoiser_per_step": 3211264,
+    "flops_diffusion_total": 32153600,
+    "flops_physics_head": 67584,
+    "total_flops": 33960998,
+    "diffusion_steps": 10,
+    "diffusion_pct_flops": 94.67801859061976
+  },
+  "steps_20": {
+    "flops_photon_v0": 1737216,
+    "flops_mamba": 1605632,
+    "flops_state_extractor": 2548,
+    "flops_rule_scheduler": 50,
+    "flops_denoiser_per_step": 3211264,
+    "flops_diffusion_total": 64307200,
+    "flops_physics_head": 67584,
+    "total_flops": 66114598,
+    "diffusion_steps": 20,
+    "diffusion_pct_flops": 97.26626485727101
+  },
+  "steps_50": {
+    "flops_photon_v0": 1737216,
+    "flops_mamba": 1605632,
+    "flops_state_extractor": 2548,
+    "flops_rule_scheduler": 50,
+    "flops_denoiser_per_step": 3211264,
+    "flops_diffusion_total": 160768000,
+    "flops_physics_head": 67584,
+    "total_flops": 162575398,
+    "diffusion_steps": 50,
+    "diffusion_pct_flops": 98.88827090554008
+  }
+}

@@ -30,14 +30,17 @@ class TestCausality:
         policy = MLPPolicy(state_dim=69, config=cfg)
         policy.eval()
 
+        torch.manual_seed(42)
         s_t = torch.randn(69)
         with torch.no_grad():
+            torch.manual_seed(100)
             act1, _, _, _ = policy.get_action_and_value(s_t)
 
         # Generating future states does not affect action at s_t
         s_future = torch.randn(69)
         with torch.no_grad():
             _ = policy.get_action_and_value(s_future)
+            torch.manual_seed(100)
             act1_repeat, _, _, _ = policy.get_action_and_value(s_t)
 
         assert torch.equal(act1, act1_repeat)

@@ -1,0 +1,54 @@
+{
+  "steps_5": {
+    "diffusion_steps": 5,
+    "preprocessing_ms": 0.13183200266212225,
+    "mamba_encoder_ms": 20.942100000102073,
+    "state_extraction_ms": 5.363430000143126,
+    "rule_scheduler_ms": 0.21095800097100437,
+    "diffusion_ms": 25.577548008877784,
+    "physics_head_ms": 1.5208360005635768,
+    "postprocessing_ms": 1.0648040031082928,
+    "total_latency_ms": 54.81150801642798,
+    "diffusion_share_pct": 46.66455810924184,
+    "throughput_seq_s": 18.244343864800843
+  },
+  "steps_10": {
+    "diffusion_steps": 10,
+    "preprocessing_ms": 0.11841999599710107,
+    "mamba_encoder_ms": 20.100312000140548,
+    "state_extraction_ms": 5.231353993294761,
+    "rule_scheduler_ms": 0.20614600274711847,
+    "diffusion_ms": 48.58043999876827,
+    "physics_head_ms": 1.7220740031916648,
+    "postprocessing_ms": 0.6982560048345476,
+    "total_latency_ms": 76.65700199897401,
+    "diffusion_share_pct": 63.37378025743621,
+    "throughput_seq_s": 13.045122740560402
+  },
+  "steps_20": {
+    "diffusion_steps": 20,
+    "preprocessing_ms": 0.12301800074055791,
+    "mamba_encoder_ms": 19.08581400057301,
+    "state_extraction_ms": 5.011321996571496,
+    "rule_scheduler_ms": 0.1979979977477342,
+    "diffusion_ms": 93.26710800174624,
+    "physics_head_ms": 1.4036100020166487,
+    "postprocessing_ms": 0.6501679983921349,
+    "total_latency_ms": 119.73903799778782,
+    "diffusion_share_pct": 77.89198039445527,
+    "throughput_seq_s": 8.351495190887327
+  },
+  "steps_50": {
+    "diffusion_steps": 50,
+    "preprocessing_ms": 0.1242319995071739,
+    "mamba_encoder_ms": 20.39042000193149,
+    "state_extraction_ms": 5.381177997915074,
+    "rule_scheduler_ms": 0.18420799518935382,
+    "diffusion_ms": 240.26634399429895,
+    "physics_head_ms": 1.5426020068116486,
+    "postprocessing_ms": 0.6572500022593886,
+    "total_latency_ms": 268.5462339979131,
+    "diffusion_share_pct": 89.46926583828619,
+    "throughput_seq_s": 3.7237535790867624
+  }
+}
