@@ -12,6 +12,11 @@ from module_07_temporal.feature_extractor import OxfordRadarFeatureExtractor
 from module_07_temporal.baselines import PersistenceBaseline, FramewiseBaseline
 from module_07_temporal.mamba_temporal import OxfordMambaTemporalModel
 from module_07_temporal.metrics import compute_reconstruction_metrics
+from module_07_temporal.latent_diffusion import (
+    OxfordLatentDenoiser,
+    OxfordDiffusionScheduler,
+    OxfordMambaLatentDiffusion,
+)
 
 __all__ = [
     "RadarFrame",
@@ -26,4 +31,7 @@ __all__ = [
     "FramewiseBaseline",
     "OxfordMambaTemporalModel",
     "compute_reconstruction_metrics",
+    "OxfordLatentDenoiser",
+    "OxfordDiffusionScheduler",
+    "OxfordMambaLatentDiffusion",
 ]
