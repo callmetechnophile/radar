@@ -17,6 +17,10 @@ from module_07_temporal.latent_diffusion import (
     OxfordDiffusionScheduler,
     OxfordMambaLatentDiffusion,
 )
+from module_07_temporal.physics_mamba import (
+    OxfordPhysicsHead,
+    OxfordPhysicsAwareMamba,
+)
 
 __all__ = [
     "RadarFrame",
@@ -34,4 +38,6 @@ __all__ = [
     "OxfordLatentDenoiser",
     "OxfordDiffusionScheduler",
     "OxfordMambaLatentDiffusion",
+    "OxfordPhysicsHead",
+    "OxfordPhysicsAwareMamba",
 ]
