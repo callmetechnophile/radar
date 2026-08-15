@@ -1,0 +1,9 @@
+Model,Oracle_5,Oracle_10,Oracle_20,Oracle_50
+Rule_Pred_5,0,328,0,0
+Rule_Pred_10,0,47,0,0
+Rule_Pred_20,0,0,0,0
+Rule_Pred_50,0,0,0,0
+Supervised_Pred_5,328,0,0,0
+Supervised_Pred_10,47,0,0,0
+Supervised_Pred_20,0,0,0,0
+Supervised_Pred_50,0,0,0,0
