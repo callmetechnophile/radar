@@ -1,0 +1,26 @@
+{
+  "total_annotated_frames": 6435,
+  "total_3d_objects": 91525,
+  "mean_objects_per_frame": 14.222999222999222,
+  "class_distribution": {
+    "bicycle": 17324,
+    "Car": 19899,
+    "motor": 571,
+    "Pedestrian": 19892,
+    "ride_other": 1265,
+    "truck": 219,
+    "Cyclist": 8119,
+    "rider": 9508,
+    "moped_scooter": 3702,
+    "bicycle_rack": 10195,
+    "ride_uncertain": 70,
+    "human_depiction": 370,
+    "vehicle_other": 290,
+    "DontCare": 101
+  },
+  "track_ids": {
+    "total_unique_tracks": 1382,
+    "multi_frame_persistent_tracks": 1365,
+    "persistence_ratio": 0.9876989869753979
+  }
+}
