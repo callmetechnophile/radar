@@ -1,0 +1,9 @@
+{
+  "total_parameters": 62574,
+  "trainable_parameters": 42510,
+  "weight_memory_mb": 0.23870086669921875,
+  "fp32_bytes": 250296,
+  "mean_latency_ms": 32.03028899981291,
+  "throughput_fps": 499.5271819150135,
+  "approx_mflop_per_sequence": 0.188
+}
