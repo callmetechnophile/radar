@@ -1,0 +1,135 @@
+{
+  ".": {
+    "count": 2,
+    "extensions": {
+      "": 1,
+      ".html": 1
+    }
+  },
+  "lidar\\ImageSets": {
+    "count": 5,
+    "extensions": {
+      ".txt": 5
+    }
+  },
+  "lidar\\testing": {
+    "count": 4,
+    "extensions": {
+      "": 4
+    }
+  },
+  "lidar\\training": {
+    "count": 1,
+    "extensions": {
+      "": 1
+    }
+  },
+  "lidar\\training\\calib": {
+    "count": 8682,
+    "extensions": {
+      ".txt": 8682
+    }
+  },
+  "lidar\\training\\image_2": {
+    "count": 8682,
+    "extensions": {
+      ".jpg": 8682
+    }
+  },
+  "lidar\\training\\label_2": {
+    "count": 6435,
+    "extensions": {
+      ".txt": 6435
+    }
+  },
+  "lidar\\training\\pose": {
+    "count": 8682,
+    "extensions": {
+      ".json": 8682
+    }
+  },
+  "lidar\\training\\velodyne": {
+    "count": 8682,
+    "extensions": {
+      ".bin": 8682
+    }
+  },
+  "radar": {
+    "count": 2,
+    "extensions": {
+      "": 2
+    }
+  },
+  "radar\\testing": {
+    "count": 4,
+    "extensions": {
+      "": 4
+    }
+  },
+  "radar\\training": {
+    "count": 3,
+    "extensions": {
+      "": 3
+    }
+  },
+  "radar\\training\\calib": {
+    "count": 8682,
+    "extensions": {
+      ".txt": 8682
+    }
+  },
+  "radar\\training\\velodyne": {
+    "count": 8682,
+    "extensions": {
+      ".bin": 8682
+    }
+  },
+  "radar_3frames": {
+    "count": 1,
+    "extensions": {
+      "": 1
+    }
+  },
+  "radar_3frames\\testing": {
+    "count": 4,
+    "extensions": {
+      "": 4
+    }
+  },
+  "radar_3frames\\training": {
+    "count": 4,
+    "extensions": {
+      "": 4
+    }
+  },
+  "radar_3frames\\training\\velodyne": {
+    "count": 8682,
+    "extensions": {
+      ".bin": 8682
+    }
+  },
+  "radar_5frames": {
+    "count": 1,
+    "extensions": {
+      "": 1
+    }
+  },
+  "radar_5frames\\testing": {
+    "count": 5,
+    "extensions": {
+      "": 5
+    }
+  },
+  "radar_5frames\\training": {
+    "count": 4,
+    "extensions": {
+      "": 4
+    }
+  },
+  "radar_5frames\\training\\velodyne": {
+    "count": 8682,
+    "extensions": {
+      ".bin": 8682
+    }
+  }
+}
