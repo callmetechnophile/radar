@@ -1,0 +1,61 @@
+# PhotonShield Phase V6.1 Configuration: VoD Native Radar + Mamba 3D Representation
+experiment_name: "photon_v6_1_mamba_3d"
+phase: "V6.1"
+
+# Dataset
+dataset:
+  name: "view_of_delft"
+  root: "C:/Users/worka/research/photonpinn/vod/view_of_delft_PUBLIC"
+  sequence_length: 8
+  stride: 8
+  num_train_sequences: 70
+  num_val_sequences: 15
+  num_test_sequences: 15
+
+# Voxel Grid Bounds (Radar Frame)
+voxel_grid:
+  x_min: 0.0
+  x_max: 32.0
+  y_min: -16.0
+  y_max: 16.0
+  z_min: -2.5
+  z_max: 2.5
+  dim_x: 32
+  dim_y: 32
+  dim_z: 8
+
+# Model Architectures
+models:
+  point_encoder:
+    in_channels: 7
+    hidden_dim: 32
+    out_dim: 64
+    pooling: "max"
+
+  mamba_backbone:
+    feature_dim: 64
+    hidden_dim: 64
+    num_layers: 2
+    d_state: 16
+    d_conv: 4
+    expand: 2
+
+  reconstruction_head:
+    in_dim: 64
+    hidden_dim1: 128
+    hidden_dim2: 512
+
+# Training Hyperparameters
+training:
+  epochs: 15
+  batch_size: 4
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  pos_weight: 4.0
+  dice_alpha: 0.5
+  seeds: [42, 123, 456]
+
+# Temporal Corruption Benchmark
+corruption:
+  dropout_p: 0.20
+  gap_lengths: [2, 4, 8]

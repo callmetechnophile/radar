@@ -1,0 +1,27 @@
+{
+  "mean_framewise_iou": 0.1781038177110701,
+  "mean_mamba_iou": 0.18013905769458274,
+  "mean_iou_gain_pct": 1.140521888380408,
+  "mean_framewise_cd_m": 1.0137680441141128,
+  "mean_mamba_cd_m": 1.0178704400857288,
+  "mean_framewise_mse": 0.13293410583088797,
+  "mean_mamba_mse": 0.13177732767330277,
+  "edge_audit_framewise": {
+    "total_parameters": 4280704,
+    "trainable_parameters": 4280704,
+    "weight_memory_mb": 16.32958984375,
+    "mean_latency_ms": 0.8621339996170718,
+    "median_latency_ms": 0.8393000025535002,
+    "p95_latency_ms": 1.159070000358042,
+    "approx_mflop_per_pass": 8.540608
+  },
+  "edge_audit_mamba": {
+    "total_parameters": 4349184,
+    "trainable_parameters": 4349184,
+    "weight_memory_mb": 16.5908203125,
+    "mean_latency_ms": 10.460244000132661,
+    "median_latency_ms": 9.683699998277007,
+    "p95_latency_ms": 14.741095000135827,
+    "approx_mflop_per_pass": 8.66464
+  }
+}
