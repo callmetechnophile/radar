@@ -1,0 +1,127 @@
+{
+  "regimes_summary": [
+    {
+      "title": "Experiment 1: VoD-From-Scratch (Control)",
+      "regime": "scratch",
+      "lambda_physics": 0.01,
+      "mean_3d_map": 0.015427977778017521,
+      "std_3d_map": 0.003276332216778888,
+      "mean_bev_map": 0.021166516467928886,
+      "std_bev_map": 0.003342106992041323,
+      "mean_center_mae": 6.506405830383301,
+      "std_center_mae": 0.15417439260485372,
+      "mean_macro_f1": 0.291669969522574,
+      "mean_kin_residual": 0.15066594009598097,
+      "std_kin_residual": 0.08071274328268761
+    },
+    {
+      "title": "Experiment 2: Oxford -> VoD Frozen Transfer",
+      "regime": "frozen_transfer",
+      "lambda_physics": 0.01,
+      "mean_3d_map": 0.006969326641410589,
+      "std_3d_map": 0.0007567834805552202,
+      "mean_bev_map": 0.013732292378942171,
+      "std_bev_map": 0.0011297792679944654,
+      "mean_center_mae": 5.67706282933553,
+      "std_center_mae": 0.2096954275197943,
+      "mean_macro_f1": 0.2736541560697055,
+      "mean_kin_residual": 0.16850613554318747,
+      "std_kin_residual": 0.011991041618876597
+    },
+    {
+      "title": "Experiment 3: Oxford -> VoD Temporal Fine-Tuning",
+      "regime": "temporal_finetune",
+      "lambda_physics": 0.01,
+      "mean_3d_map": 0.010870009350279966,
+      "std_3d_map": 0.005131845190038257,
+      "mean_bev_map": 0.01523503785332044,
+      "std_bev_map": 0.006431366031310291,
+      "mean_center_mae": 6.046312014261882,
+      "std_center_mae": 0.5628383662739426,
+      "mean_macro_f1": 0.2710063175108401,
+      "mean_kin_residual": 0.23771042128403982,
+      "std_kin_residual": 0.10716869937110018
+    },
+    {
+      "title": "Experiment 4: Full Oxford -> VoD Fine-Tuning (lambda=0.01)",
+      "regime": "full_finetune",
+      "lambda_physics": 0.01,
+      "mean_3d_map": 0.012880466257532438,
+      "std_3d_map": 0.0027607069293806475,
+      "mean_bev_map": 0.018538290945192177,
+      "std_bev_map": 0.003111472755158398,
+      "mean_center_mae": 6.074305375417073,
+      "std_center_mae": 0.4638497809881948,
+      "mean_macro_f1": 0.3333758688333243,
+      "mean_kin_residual": 0.03184390192230543,
+      "std_kin_residual": 0.006824822152552985
+    },
+    {
+      "title": "Physics Ablation: Full Transfer (lambda=0.00)",
+      "regime": "full_finetune",
+      "lambda_physics": 0.0,
+      "mean_3d_map": 0.012397415935993195,
+      "std_3d_map": 0.002436652050782209,
+      "mean_bev_map": 0.01895085411767165,
+      "std_bev_map": 0.0053410601840884276,
+      "mean_center_mae": 6.212994575500488,
+      "std_center_mae": 0.31244154296760357,
+      "mean_macro_f1": 0.2585517430278065,
+      "mean_kin_residual": 0.26874006042877835,
+      "std_kin_residual": 0.16251173198262306
+    },
+    {
+      "title": "Physics Ablation: Full Transfer (lambda=0.05)",
+      "regime": "full_finetune",
+      "lambda_physics": 0.05,
+      "mean_3d_map": 0.023453693216045696,
+      "std_3d_map": 0.004349593693988017,
+      "mean_bev_map": 0.029796764254570007,
+      "std_bev_map": 0.00528916045345037,
+      "mean_center_mae": 5.953525384267171,
+      "std_center_mae": 0.06606452366544659,
+      "mean_macro_f1": 0.30769038005131466,
+      "mean_kin_residual": 0.05470323252181212,
+      "std_kin_residual": 0.023408152190803888
+    }
+  ],
+  "density_summary": {
+    "sparse_1obj": {
+      "mean_3d_ap": 0.0,
+      "mean_bev_ap": 0.0,
+      "mean_center_error": 12.81353235244751
+    },
+    "medium_2_3obj": {
+      "mean_3d_ap": 0.002317882173653858,
+      "mean_bev_ap": 0.0030337827882813773,
+      "mean_center_error": 9.06507316128961
+    },
+    "dense_4_6obj": {
+      "mean_3d_ap": 0.005017994777507396,
+      "mean_bev_ap": 0.007155866776329472,
+      "mean_center_error": 9.668998701444936
+    },
+    "very_dense_7plus": {
+      "mean_3d_ap": 0.015510913019939501,
+      "mean_bev_ap": 0.021893153995709912,
+      "mean_center_error": 5.7789568643732725
+    }
+  },
+  "tracking_metrics": {
+    "HOTA": 0.12617048002017558,
+    "IDF1": 0.1466942572066627,
+    "MOTA": 0.0,
+    "id_switches": 5720,
+    "track_fragmentations": 5720,
+    "mean_trajectory_error_m": 1.521203875541687
+  },
+  "compute_audit": {
+    "total_parameters": 4377019,
+    "trainable_parameters": 4377019,
+    "weight_memory_mb": 16.697002410888672,
+    "mean_latency_ms": 20.898291999765206,
+    "median_latency_ms": 20.22199999919394,
+    "p95_latency_ms": 28.271539997513173,
+    "approx_mflop_per_pass": 8.716672
+  }
+}

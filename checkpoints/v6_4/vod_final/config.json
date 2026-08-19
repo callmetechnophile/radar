@@ -1,13 +1,14 @@
 {
   "architecture": "VoDFoundationModel",
-  "pretraining_source": "Oxford V5.5 Foundation",
+  "pretraining_foundation": "Oxford Radar RobotCar V5.5 Foundation",
   "sequence_length": 16,
   "feature_dim": 64,
   "hidden_dim": 64,
   "num_queries": 16,
   "lambda_physics": 0.01,
   "dt": 0.07692307692307693,
-  "checkpoint_policy": "Policy B (3-epoch smoothed val, 5-epoch warmup)",
-  "dataset_split": "Official VoD Split (5,139 train, 1,296 val, 2,248 test)",
-  "eligibility": "M4Human Transfer Eligible"
+  "checkpoint_policy": "Policy B (3-epoch moving average with 5-epoch warmup)",
+  "training_windows": 5034,
+  "dataset_split": "Official VoD Split (5,139 train, 1,296 val, 2,247 test)",
+  "eligibility": "M4Human Transfer Eligible (Stage 3 Ready)"
 }
