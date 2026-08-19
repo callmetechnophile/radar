@@ -1,0 +1,13 @@
+{
+  "architecture": "OxfordPhysicsAwareMamba",
+  "feature_dim": 64,
+  "hidden_dim": 64,
+  "mamba_layers": 2,
+  "sequence_length": 16,
+  "sampling_rate_hz": 4.0,
+  "dt": 0.25,
+  "lambda_physics": 0.01,
+  "checkpoint_policy": "Policy B (3-epoch smoothed val, 5-epoch warmup)",
+  "selected_epoch": 14,
+  "dataset_split": "70% Train (6315 scans), 15% Val (1353 scans), 15% Test (1354 scans)"
+}

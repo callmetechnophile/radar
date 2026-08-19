@@ -1,0 +1,10 @@
+{
+  "latent_mean": 0.14584985375404358,
+  "latent_std": 1.5215165615081787,
+  "latent_min": -2.881556749343872,
+  "latent_max": 7.787199974060059,
+  "latent_abs_mean": 1.1627141237258911,
+  "temporal_smoothness": 0.5703605016072592,
+  "kinematic_residual": 0.0205359881122907,
+  "status": "VALIDATED_AND_FROZEN"
+}
