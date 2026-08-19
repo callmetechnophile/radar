@@ -1,0 +1,90 @@
+{
+  "stage_a_physics_ablation": [
+    {
+      "stage": "Physics lambda=0.00",
+      "mean_3d_ap": 0.005681746018429597,
+      "std_3d_ap": 0.0009657377345770399,
+      "mean_bev_ap": 0.009589971819271645,
+      "std_bev_ap": 0.0029666336926448583,
+      "mean_center_mae": 5.008273919423421,
+      "mean_macro_f1": 0.23164442140829297
+    },
+    {
+      "stage": "Physics lambda=0.01",
+      "mean_3d_ap": 0.005627579676608245,
+      "std_3d_ap": 0.0026107199071080016,
+      "mean_bev_ap": 0.008720074004183212,
+      "std_bev_ap": 0.004431091491521204,
+      "mean_center_mae": 5.193020184834798,
+      "mean_macro_f1": 0.2575536106392272
+    },
+    {
+      "stage": "Physics lambda=0.05",
+      "mean_3d_ap": 0.007628928404301405,
+      "std_3d_ap": 0.001239260750138422,
+      "mean_bev_ap": 0.012008291048308214,
+      "std_bev_ap": 0.0017045984639777949,
+      "mean_center_mae": 5.2603146235148115,
+      "mean_macro_f1": 0.24019604342509945
+    }
+  ],
+  "stage_b_heads_comparison": [
+    {
+      "head_type": "HEAD-1 (Anchor-Based)",
+      "mean_3d_ap": 0.004409686972697576,
+      "std_3d_ap": 0.0011041253850444504,
+      "mean_bev_ap": 0.007215003948658705,
+      "std_bev_ap": 0.0016627503771236766,
+      "mean_center_mae": 6.526639938354492,
+      "mean_macro_f1": 0.28425407073341796
+    },
+    {
+      "head_type": "HEAD-2 (Query-Based)",
+      "mean_3d_ap": 0.005627579676608245,
+      "std_3d_ap": 0.0026107199071080016,
+      "mean_bev_ap": 0.008720074004183212,
+      "std_bev_ap": 0.004431091491521204,
+      "mean_center_mae": 5.193020184834798,
+      "mean_macro_f1": 0.2575536106392272
+    }
+  ],
+  "stage_c_density_summary": {
+    "sparse_1obj": {
+      "mean_3d_ap": 0.0,
+      "mean_bev_ap": 0.0,
+      "mean_center_error": 0.0
+    },
+    "medium_2_3obj": {
+      "mean_3d_ap": 0.0,
+      "mean_bev_ap": 0.0,
+      "mean_center_error": 0.0
+    },
+    "dense_4_6obj": {
+      "mean_3d_ap": 0.004803458844738391,
+      "mean_bev_ap": 0.006465988359802092,
+      "mean_center_error": 6.223858247200648
+    },
+    "very_dense_7plus": {
+      "mean_3d_ap": 0.0033044120359591034,
+      "mean_bev_ap": 0.007240883146247749,
+      "mean_center_error": 4.458188174499406
+    }
+  },
+  "stage_d_tracking_metrics": {
+    "HOTA": 0.278115203285154,
+    "IDF1": 0.14358974358974358,
+    "MOTA": 0.0,
+    "id_switches": 0,
+    "track_fragmentations": 0,
+    "mean_trajectory_error_m": 1.6156762838363647
+  },
+  "edge_audit": {
+    "total_parameters": 4377019,
+    "trainable_parameters": 4377019,
+    "weight_memory_mb": 16.697002410888672,
+    "mean_latency_ms": 12.685096000495832,
+    "median_latency_ms": 12.97740000882186,
+    "p95_latency_ms": 16.58950999189983,
+    "approx_mflop_per_pass": 8.716672
+  }
+}
