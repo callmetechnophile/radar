@@ -1,0 +1,121 @@
+{
+  "regimes_summary": [
+    {
+      "title": "BASELINE: VoD-From-Scratch",
+      "regime": "scratch",
+      "lambda_physics": 0.01,
+      "mean_3d_map": 0.010618364748855432,
+      "std_3d_map": 0.003787688820869666,
+      "mean_bev_map": 0.011872438403467337,
+      "std_bev_map": 0.0037462739590454074,
+      "mean_center_mae": 6.080262978871663,
+      "std_center_mae": 0.6940803124818252,
+      "mean_macro_f1": 0.2943255828257731,
+      "mean_kin_residual": 0.030454068755110104
+    },
+    {
+      "title": "VOD-A: Oxford Frozen Transfer",
+      "regime": "frozen_transfer",
+      "lambda_physics": 0.01,
+      "mean_3d_map": 0.007751167829458912,
+      "std_3d_map": 0.004231811802121708,
+      "mean_bev_map": 0.009320112876594067,
+      "std_bev_map": 0.00466804608913638,
+      "mean_center_mae": 5.952022393544515,
+      "std_center_mae": 0.5661542297289563,
+      "mean_macro_f1": 0.3557640983723602,
+      "mean_kin_residual": 0.25532272458076477
+    },
+    {
+      "title": "VOD-B: Temporal Fine-Tuning",
+      "regime": "temporal_finetune",
+      "lambda_physics": 0.01,
+      "mean_3d_map": 0.0074390981656809645,
+      "std_3d_map": 0.0017705587086604667,
+      "mean_bev_map": 0.008406633200744787,
+      "std_bev_map": 0.0018915910195273931,
+      "mean_center_mae": 5.954868634541829,
+      "std_center_mae": 0.8832816054062675,
+      "mean_macro_f1": 0.3335016062724044,
+      "mean_kin_residual": 0.17918580770492554
+    },
+    {
+      "title": "VOD-C: Full Fine-Tuning (lambda=0.01)",
+      "regime": "full_finetune",
+      "lambda_physics": 0.01,
+      "mean_3d_map": 0.006908956216648221,
+      "std_3d_map": 0.002956753109586808,
+      "mean_bev_map": 0.008680940295259157,
+      "std_bev_map": 0.002886630122530838,
+      "mean_center_mae": 5.9852705001831055,
+      "std_center_mae": 0.8718434280339856,
+      "mean_macro_f1": 0.35872041917281833,
+      "mean_kin_residual": 0.00945597638686498
+    },
+    {
+      "title": "VOD-D: Physics Ablation (lambda=0.00)",
+      "regime": "full_finetune",
+      "lambda_physics": 0.0,
+      "mean_3d_map": 0.007643214116493861,
+      "std_3d_map": 0.001620152727863898,
+      "mean_bev_map": 0.008850741510589918,
+      "std_bev_map": 0.0019564880802024095,
+      "mean_center_mae": 5.842560450236003,
+      "std_center_mae": 0.6973555064028402,
+      "mean_macro_f1": 0.346322404825385,
+      "mean_kin_residual": 0.1975285361210505
+    },
+    {
+      "title": "VOD-D: Physics Ablation (lambda=0.05)",
+      "regime": "full_finetune",
+      "lambda_physics": 0.05,
+      "mean_3d_map": 0.006935272521028916,
+      "std_3d_map": 0.0019407230785612878,
+      "mean_bev_map": 0.008653600079317888,
+      "std_bev_map": 0.0019472350647127218,
+      "mean_center_mae": 5.798982620239258,
+      "std_center_mae": 0.6562078965081919,
+      "mean_macro_f1": 0.33546398405923794,
+      "mean_kin_residual": 0.011480509924391905
+    }
+  ],
+  "density_summary": {
+    "sparse_1obj": {
+      "mean_3d_ap": 0.0,
+      "mean_bev_ap": 0.0,
+      "mean_center_error": 0.0
+    },
+    "medium_2_3obj": {
+      "mean_3d_ap": 0.0,
+      "mean_bev_ap": 0.0,
+      "mean_center_error": 0.0
+    },
+    "dense_4_6obj": {
+      "mean_3d_ap": 0.01686146559077315,
+      "mean_bev_ap": 0.01838083784095943,
+      "mean_center_error": 6.499870553612709
+    },
+    "very_dense_7plus": {
+      "mean_3d_ap": 0.00413513229189751,
+      "mean_bev_ap": 0.0069496410400865394,
+      "mean_center_error": 4.814373360739814
+    }
+  },
+  "tracking_metrics": {
+    "HOTA": 0.2323106841457232,
+    "IDF1": 0.1038374717832957,
+    "MOTA": 0.0,
+    "id_switches": 1,
+    "track_fragmentations": 1,
+    "mean_trajectory_error_m": 1.614349365234375
+  },
+  "edge_audit": {
+    "total_parameters": 4377019,
+    "trainable_parameters": 4377019,
+    "weight_memory_mb": 16.697002410888672,
+    "mean_latency_ms": 17.287827999098226,
+    "median_latency_ms": 17.247399999178015,
+    "p95_latency_ms": 20.744189994002227,
+    "approx_mflop_per_pass": 8.716672
+  }
+}
