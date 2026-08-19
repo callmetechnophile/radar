@@ -1,0 +1,16 @@
+{
+  "oxford_rate": {
+    "fps": 10.0,
+    "dt_sec": 0.1
+  },
+  "vod_rate": {
+    "fps": 13.0,
+    "dt_sec": 0.077
+  },
+  "m4human_rate": {
+    "fps": 30.0,
+    "dt_sec": 0.03333
+  },
+  "temporal_compatibility": "PASS (DT_M4HUMAN=0.03333s explicitly scaled in loss)",
+  "velocity_scale_factor_vod_to_m4human": 2.31
+}

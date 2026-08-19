@@ -1,0 +1,10 @@
+Property,Oxford,VoD,M4Human,Match
+Sensor Modality,2D Polar Radar Scan,3D Point Cloud (7-D),3D Point Cloud (5-D) / Tensor,MATCH
+Coordinate System,"BEV Cartesian (+x fwd, +y left)","3D Cartesian (+x fwd, +y left, +z up)","3D Cartesian (+x lat, +y fwd, +z up)",PERMUTED (X/Y axis swap)
+Forward Axis,+X axis,+X axis,+Y axis (Depth),PERMUTED
+Lateral Axis,+Y axis,+Y axis,+X axis (Horizontal),PERMUTED
+Upward Axis,N/A (2D BEV),+Z axis,+Z axis,MATCH
+Range Coverage,"[0, 163 m]","[0, 32 m]","[0.5, 6.0 m]",SCALE SHIFT (Indoor vs Outdoor)
+Velocity Metric,m/s (Doppler / diff),m/s (Doppler compensated),m/s (Doppler FFT),MATCH
+Origin Definition,Sensor center,Sensor center,Sensor center,MATCH
+Measurement Units,"Meters, Radians","Meters, Radians","Meters, Radians",MATCH

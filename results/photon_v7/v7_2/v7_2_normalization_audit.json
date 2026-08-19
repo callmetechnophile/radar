@@ -1,0 +1,43 @@
+{
+  "oxford_normalization": {
+    "mean": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "std": [
+      40.0,
+      40.0,
+      1.0
+    ],
+    "range_max_m": 163.0
+  },
+  "vod_normalization": {
+    "mean": [
+      12.5,
+      0.0,
+      0.5
+    ],
+    "std": [
+      8.0,
+      6.0,
+      1.2
+    ],
+    "range_max_m": 32.0
+  },
+  "m4human_normalization": {
+    "mean": [
+      0.0,
+      3.25,
+      1.5
+    ],
+    "std": [
+      1.5,
+      1.5,
+      0.8
+    ],
+    "range_max_m": 6.0
+  },
+  "normalization_compatibility": "PASS (Task-specific Adapter Normalizes Locally)",
+  "domain_scale_ratio": "5.33x spatial compression from VoD (32m) to M4Human (6m)"
+}
