@@ -1,0 +1,5 @@
+Method,Params,Weight_Bytes,Extra_FLOPs,Latency_ms,Extra_Latency_ms
+No Adapter (V6.4 Baseline),0,0,0,31.247,+0.000 ms
+Static Linear Adapter,36,144,66,31.251,+0.0044 ms
+ADALINE / LMS Adapter,36,144,66,31.251,+0.0044 ms
+Nonlinear MLP Adapter,5379,21516,10432,32.001,+0.7535 ms

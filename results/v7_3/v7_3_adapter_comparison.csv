@@ -1,0 +1,5 @@
+Method,Params,MPJPE_mm,Root_Rel_MPJPE_mm,PA_MPJPE_mm,Root_MAE_mm,Root_X_MAE_mm,Root_Y_MAE_mm,Root_Z_MAE_mm,Trans_Aligned_MPJPE_mm,Scale_Trans_MPJPE_mm,Full_Procrustes_MPJPE_mm,Box_3D_AP,Velocity_MAE_m_s,Kinematic_Residual_m_s
+No Adapter,0,95.9,33.3,26.7,97.2,49.2,45.4,53.0,33.3,27.0,26.7,0.9991,0.2318,0.7577
+Static Linear,36,61.2,33.3,26.7,56.3,37.5,34.9,5.3,33.3,27.0,26.7,1.0000,0.2318,0.7529
+ADALINE (1000 frames),36,72.6,33.3,26.7,72.0,39.1,35.7,35.3,33.3,27.0,26.7,1.0000,0.2318,0.7558
+Nonlinear MLP,5379,84.7,33.3,26.7,80.3,45.9,40.7,34.2,33.3,27.0,26.7,1.0000,0.2318,1.8980

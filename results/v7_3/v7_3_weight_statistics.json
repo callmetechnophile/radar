@@ -1,0 +1,22 @@
+{
+  "adaline_W_shape": [
+    3,
+    11
+  ],
+  "adaline_W_mean": 0.0015988219529390335,
+  "adaline_W_std": 0.004212259780615568,
+  "adaline_W_norm": 0.025882020592689514,
+  "adaline_b_vector": [
+    0.038438644260168076,
+    0.02232099138200283,
+    -0.007950758561491966
+  ],
+  "static_W_norm": 0.12347614020109177,
+  "static_b_vector": [
+    0.022533457726240158,
+    0.02476443164050579,
+    -0.009302773512899876
+  ],
+  "learning_rate": 0.005,
+  "stability": "PASS (0 NaN, 0 Inf, smooth bounded convergence)"
+}
