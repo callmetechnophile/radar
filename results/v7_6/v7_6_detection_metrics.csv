@@ -1,0 +1,4 @@
+regime,ap3d,precision,recall,f1,center_mae_cm,dim_mae_cm
+scratch,0.9473,0.9970,0.9970,0.9970,13.45,2.28
+transfer_static,0.9394,0.9882,0.9882,0.9882,19.02,5.27
+transfer_adaline,0.9394,0.9882,0.9882,0.9882,19.02,5.27

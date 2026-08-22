@@ -1,0 +1,4 @@
+regime,hota,idf1,mota,id_switch_rate
+scratch,0.9037,0.9741,0.9510,0.0460
+transfer_static,0.8871,0.9607,0.9325,0.0557
+transfer_adaline,0.8856,0.9599,0.9309,0.0573

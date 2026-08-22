@@ -1,0 +1,23 @@
+joint_idx,joint_name,scratch_mpjpe,transfer_mpjpe,adaline_mpjpe
+0,Pelvis (Root),89.2,50.3,72.2
+1,Left Hip,86.9,53.2,79.6
+2,Right Hip,84.0,53.0,72.1
+3,Spine 1,87.1,52.6,77.9
+4,Left Knee,96.8,68.0,90.4
+5,Right Knee,96.5,71.7,98.6
+6,Spine 2,87.5,53.3,78.8
+7,Left Ankle,86.9,51.8,76.2
+8,Right Ankle,85.0,51.8,70.3
+9,Spine 3,90.9,50.2,75.1
+10,Left Foot,90.1,51.1,66.4
+11,Right Foot,85.9,53.8,72.0
+12,Neck,87.7,54.1,76.2
+13,Left Collar,88.1,53.6,78.8
+14,Right Collar,91.2,51.8,71.2
+15,Head,85.7,55.9,78.3
+16,Left Shoulder,91.0,54.9,81.3
+17,Right Shoulder,88.2,54.6,75.9
+18,Left Elbow,92.5,73.8,100.8
+19,Right Elbow,95.6,70.5,89.6
+20,Left Wrist,84.4,60.4,92.8
+21,Right Wrist,82.7,55.7,79.8

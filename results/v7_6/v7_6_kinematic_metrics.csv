@@ -1,0 +1,4 @@
+regime,velocity_mae,kin_residual,p95_kin,accel_mae,bone_err_mm
+scratch,0.0784,0.7802,1.4775,38.4687,13.25
+transfer_static,0.2213,0.7484,1.5426,34.6659,12.01
+transfer_adaline,0.2213,0.7536,1.5443,34.8014,12.01

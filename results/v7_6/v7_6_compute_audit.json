@@ -1,0 +1,15 @@
+{
+  "base_model_params": 62574,
+  "static_adapter_params": 36,
+  "adaline_params": 36,
+  "total_adapter_params": 72,
+  "v64_backbone_params": 4377019,
+  "fp32_model_memory_MB": 0.24,
+  "adapter_fp32_bytes": 288,
+  "base_latency_T16_ms": 31.632,
+  "adapter_latency_ms": 0.0091,
+  "total_latency_T16_ms": 31.641,
+  "fps_estimate": 31.6,
+  "v64_frozen": true,
+  "test_leakage": false
+}

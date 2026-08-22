@@ -1,0 +1,10 @@
+condition,mpjpe_mm,pa_mpjpe_mm,velocity_mae
+dropout_0pct,56.6,26.8,0.2213
+dropout_10pct,66604.1,32.1,0.2309
+dropout_20pct,100606.5,38.0,0.2410
+dropout_30pct,118218.4,43.9,0.2505
+dropout_40pct,127025.7,49.7,0.2597
+dropout_50pct,129863.5,55.8,0.2688
+gap_2f,87677.7,33.9,0.2332
+gap_4f,116084.2,41.7,0.2449
+gap_8f,134643.2,57.4,0.2685
