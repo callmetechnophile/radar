@@ -1,0 +1,16 @@
+{
+  "base_model_params": 94477,
+  "range_adapter_params": 72,
+  "residual_adapter_params": 515,
+  "adaline_params": 36,
+  "total_new_params": 623,
+  "budget_ok": true,
+  "base_latency_ms": "26.286",
+  "range_adapter_latency_ms": "0.1420",
+  "residual_adapter_latency_ms": "0.3778",
+  "adaline_latency_ms": "0.0044",
+  "total_latency_ms": "26.810",
+  "nan_detected": false,
+  "inf_detected": false,
+  "stability": "PASS"
+}
