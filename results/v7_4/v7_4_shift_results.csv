@@ -1,0 +1,21 @@
+Shift,Description,No_Adapter_MPJPE,Static_MPJPE,ADALINE_1000f_MPJPE,Static_vs_Baseline_mm,ADALINE_Recovery_pct,Kin_Residual_ADALINE
+SHIFT-A-low,X translation +0.10 m,454.8,485.9,127.4,+424.4,84.5%,0.8138
+SHIFT-A-medium,X translation +0.50 m,1860.8,1899.3,937.8,+1837.8,52.3%,1.6170
+SHIFT-A-high,X translation +1.00 m,1980.3,1980.1,1473.8,+1918.6,26.4%,4.6211
+SHIFT-B-low,Global offset low,565.1,573.9,151.1,+512.3,82.5%,0.7855
+SHIFT-B-medium,Global offset medium,1439.6,1355.4,499.2,+1293.9,66.2%,0.7598
+SHIFT-B-high,Global offset high,1767.4,1674.3,851.5,+1612.7,51.0%,1.1672
+SHIFT-C-low,Range scale +1%,89.8,76.8,74.1,+15.2,17.7%,0.7645
+SHIFT-C-medium,Range scale +5%,131.1,245.3,102.4,+183.8,77.8%,0.7681
+SHIFT-C-high,Range scale +10%,223.1,477.0,142.7,+415.4,80.5%,0.7685
+SHIFT-D-low,Velocity scale +1%,91.8,61.5,68.0,-0.0,-6492.7%,0.7632
+SHIFT-D-medium,Velocity scale +5%,91.9,61.5,68.1,-0.0,-6553.8%,0.7628
+SHIFT-D-high,Velocity scale +10%,92.0,61.5,68.2,-0.0,-6629.4%,0.7623
+SHIFT-E-low,Yaw rotation 1 deg,118.7,80.7,70.5,+19.2,53.5%,0.7600
+SHIFT-E-medium,Yaw rotation 5 deg,288.6,254.4,113.6,+192.9,73.0%,0.7518
+SHIFT-E-high,Yaw rotation 10 deg,516.7,483.0,192.4,+421.4,69.0%,0.7492
+SHIFT-F-medium,Combined affine medium,1274.4,1346.5,402.5,+1285.0,73.5%,0.7645
+SHIFT-F-high,Combined affine high,1655.7,1831.1,713.0,+1769.6,63.2%,1.0410
+SHIFT-G-low,Statistics noise sigma=0.05,282.8,60103.9,10655.3,+60042.3,82.4%,17.8159
+SHIFT-G-medium,Statistics noise sigma=0.15,719.9,188501.4,32066.0,+188439.8,83.0%,50.7514
+SHIFT-G-high,Statistics noise sigma=0.30,1138.4,381221.7,64185.2,+381160.1,83.2%,92.5104

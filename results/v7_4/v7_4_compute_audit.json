@@ -1,0 +1,13 @@
+{
+  "base_model_params": 94477,
+  "static_adapter_params": 36,
+  "adaline_params": 36,
+  "adaline_weight_bytes_fp32": 144,
+  "adaline_extra_flops_per_frame": 66,
+  "base_latency_ms": "27.447",
+  "adaline_extra_latency_ms": "0.0051",
+  "total_latency_ms": "27.452",
+  "nan_detected": false,
+  "inf_detected": false,
+  "stability": "PASS"
+}

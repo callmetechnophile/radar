@@ -1,0 +1,3 @@
+Condition,Kinematic_Residual,Velocity_MAE,P95_Kin_Residual
+Before ADALINE,0.7589,0.2371,1.5401
+After ADALINE 1000f,0.7633,0.2371,1.5595
