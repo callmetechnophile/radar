@@ -1,0 +1,12 @@
+{
+  "base_inference_parameters": 62574,
+  "binn_trainable_parameters": 62574,
+  "inference_parameter_overhead": 0,
+  "frozen_v64_foundation_parameters": 4377019,
+  "adapter_parameters": 36,
+  "baseline_latency_ms": 31.28,
+  "binn_latency_ms": 35.839,
+  "latency_overhead_pct": 14.57,
+  "v64_frozen": true,
+  "test_leakage": false
+}

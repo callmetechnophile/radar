@@ -1,0 +1,7 @@
+boundary_type,status,baseline_violation_rate,binn_violation_rate,reduction_pct
+B1: Bone Length,ACTIVE,58.05%,57.39%,1.1%
+B2: Joint Angle,ACTIVE,51.79%,32.02%,38.2%
+B3: Spatial Workspace,ACTIVE,0.00%,0.00%,0.0%
+B4: Velocity,ACTIVE,33.78%,1.28%,96.2%
+B5: Acceleration,ACTIVE,99.99%,99.22%,0.8%
+B6: Radar Consistency,RADAR CONSISTENCY NOT IMPLEMENTED,N/A,N/A,N/A

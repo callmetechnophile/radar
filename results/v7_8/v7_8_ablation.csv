@@ -1,0 +1,7 @@
+ablation_config,mpjpe_mm,pa_mpjpe_mm,root_mae_mm,velocity_mae,kin_residual,bone_violation_rate,joint_angle_violation_rate,workspace_violation_rate
+Full BINN,68.97,19.01,65.73,0.1937,0.2865,56.18%,32.48%,0.00%
+Full - Bone,62.51,21.88,59.12,0.1852,0.2844,63.75%,36.97%,0.00%
+Full - Joint,71.00,19.33,70.93,0.1853,0.2722,56.12%,44.85%,0.00%
+Full - Spatial,62.19,21.59,58.24,0.1986,0.3061,63.68%,41.35%,0.00%
+Full - Velocity,73.33,19.45,69.19,0.1879,0.2890,56.30%,36.62%,0.00%
+Full - Acceleration,76.46,24.43,68.11,0.1894,0.6514,65.79%,39.32%,0.00%
