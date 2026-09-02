@@ -1,0 +1,8 @@
+{
+  "clean_latent_norm": 1.6498392820358276,
+  "corrupted_latent_norm": 1.1891701221466064,
+  "latent_norm_ratio": 0.720779372327239,
+  "zero_input_joint_prediction_norm_m": 58.29941940307617,
+  "pose_head_error_at_gap_mm": 2498.7099170684814,
+  "instability_location": "POSE_HEAD_SENSITIVITY"
+}

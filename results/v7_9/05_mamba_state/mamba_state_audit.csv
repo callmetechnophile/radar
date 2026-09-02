@@ -1,0 +1,5 @@
+condition,gap_start,gap_length,max_h_deviation,max_y_deviation,state_recovery_time_frames
+Single Corrupted (t=4),4,1,0.04668092727661133,0.09341144561767578,1
+2-Frame Gap (t=4..5),4,2,0.060141921043395996,0.10125207901000977,1
+4-Frame Gap (t=4..7),4,4,0.07428228855133057,0.11417555809020996,1
+8-Frame Gap (t=4..11),4,8,0.07358527183532715,0.1089169979095459,1

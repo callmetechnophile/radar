@@ -1,0 +1,9 @@
+{
+  "primary_failure_category": "H",
+  "ranked_secondary_causes": [
+    "1. Category C: Mamba bidirectional state contamination from zero-token impulse shock",
+    "2. Category B: Out-of-distribution representation shift (zero feature vector vs continuous training distribution)",
+    "3. Category F: Absence of observation-mask gating inside the SSM recurrence (Mamba treats zero as an active measurement)"
+  ],
+  "recommended_next_experiment": "Observation-Gated Mamba SSM (carry-forward state when mask=0, bypassing zero-token update)"
+}

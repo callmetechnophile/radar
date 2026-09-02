@@ -1,0 +1,9 @@
+{
+  "dataset_token_scale": "Pre-encoded continuous radar features [-3.0, 3.0]",
+  "spatial_units_ground_truth": "meters",
+  "spatial_units_predicted_skeleton": "meters (converted to mm for reporting via * 1000.0)",
+  "velocity_units": "m/s (dt = 0.033333 s, 30 Hz)",
+  "acceleration_units": "m/s^2",
+  "scale_error_1000x_ruled_out": true,
+  "coordinate_convention": "+x right, +y forward, +z up (M4Human standard)"
+}

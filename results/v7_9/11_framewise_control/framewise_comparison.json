@@ -1,0 +1,5 @@
+{
+  "standard_mamba_mpjpe": 308.49474832783454,
+  "framewise_isolated_mpjpe": 183.90000953674317,
+  "recurrent_state_accumulation_confirmed": true
+}

@@ -1,0 +1,5 @@
+position,baseline_mpjpe,binn_mpjpe
+Beginning (t=0..1),324.60,342.90
+Middle (t=7..8),308.49,349.17
+End (t=14..15),311.08,347.56
+"Distributed (t=3, 11)",309.32,335.38
