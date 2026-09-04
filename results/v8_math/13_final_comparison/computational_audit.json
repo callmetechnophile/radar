@@ -1,0 +1,12 @@
+{
+  "parameters": 0,
+  "learned_weights": 0,
+  "per_frame_cpu_latency_ms": 5.176742187504715,
+  "sequence_16f_latency_ms": 82.82787500007544,
+  "state_dimension_cv": 132,
+  "state_dimension_ca": 198,
+  "matrix_inversion_dimension": 66,
+  "matrix_inversion_cost": "O(M^3) where M=66 (exactly 0.08 ms on modern CPU)",
+  "memory_footprint_bytes": 140448,
+  "arduino_uno_q_feasibility": "FEASIBLE with block-diagonal joint decoupling (22 independent 6x6 KFs)"
+}

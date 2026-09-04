@@ -1,0 +1,9 @@
+configuration,mpjpe,pa_mpjpe,kin_residual,bone_viol_pct,acc_viol_pct
+A: Motion model only (Prediction only),128.95,80.48,0.36,87.62,0.00
+B: Motion + radar (Zero-replacement),970.18,73.68,15.39,89.08,100.00
+C: Motion + radar + mask gating,67.10,62.48,1.50,84.21,78.57
+D: Motion + radar + mask + skeletal constraints,54.12,49.18,1.50,51.58,95.08
+E: Motion + radar + mask + dynamics constraints,62.96,54.59,0.67,82.20,84.40
+F: Motion + radar + mask + radar consistency,66.80,62.18,1.20,84.13,78.57
+G: Motion + radar + mask + LiDAR,33.24,31.25,0.81,70.35,78.56
+H: Full mathematical estimator,27.51,24.80,0.52,39.62,94.09

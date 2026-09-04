@@ -1,0 +1,9 @@
+{
+  "dataset": "M4Human",
+  "dt_seconds": 0.03333,
+  "sampling_hz": 30.0,
+  "train_sequences": 500,
+  "val_sequences": 100,
+  "test_sequences": 500,
+  "leakage_check": "PASS (Parameters fitted strictly from train)"
+}
