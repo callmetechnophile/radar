@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "formula": "alpha_t = sigmoid(10 * (c_t - 0.20)) * (1 - clamp(N_gap / 32, 0, 1))",
+  "range": "[0.0, 1.0] strictly",
+  "gap_derivation": "N_gap derived causally from observation_mask_mt without requiring extra network inputs",
+  "boundary_conditions": {
+    "perfect_observation (c_t=1.0, gap=0)": 0.9997,
+    "moderate_degradation (c_t=0.5, gap=8)": 0.7138,
+    "boundary_yellow (c_t=0.2, gap=16)": 0.25,
+    "extreme_unobserved (c_t=0.0, gap>=32)": 0.0
+  },
+  "samples": [
+    {
+      "confidence_c_t": 1.0,
+      "gap_length": 0,
+      "alpha_t": 0.9997,
+      "neural_contribution_pct": 99.97,
+      "status": "GREEN"
+    },
+    {
+      "confidence_c_t": 1.0,
+      "gap_length": 4,
+      "alpha_t": 0.8747,
+      "neural_contribution_pct": 87.47,
+      "status": "GREEN"
+    },
+    {
+      "confidence_c_t": 1.0,
+      "gap_length": 8,
+      "alpha_t": 0.7497,
+      "neural_contribution_pct": 74.97,
+      "status": "GREEN"
+    },
+    {
+      "confidence_c_t": 1.0,
+      "gap_length": 16,
+      "alpha_t": 0.4998,
+      "neural_contribution_pct": 49.98,
+      "status": "YELLOW"
+    },
+    {
+      "confidence_c_t": 1.0,
+      "gap_length": 24,
+      "alpha_t": 0.2499,
+      "neural_contribution_pct": 24.99,
+      "status": "YELLOW"
+    },
+    {
+      "confidence_c_t": 1.0,
+      "gap_length": 32,
+      "alpha_t": 0.0,
+      "neural_contribution_pct": 0.0,
+      "status": "RED (Damped Fallback)"
+    },
+    {
+      "confidence_c_t": 0.8,
+      "gap_length": 0,
+      "alpha_t": 0.9975,
+      "neural_contribution_pct": 99.75,
+      "status": "GREEN"
+    },
+    {
+      "confidence_c_t": 0.8,
+      "gap_length": 4,
+      "alpha_t": 0.8728,
+      "neural_contribution_pct": 87.28,
+      "status": "GREEN"
+    },
+    {
+      "confidence_c_t": 0.8,
+      "gap_length": 8,
+      "alpha_t": 0.7481,
+      "neural_contribution_pct": 74.81,
+      "status": "GREEN"
+    },
+    {
+      "confidence_c_t": 0.8,
+      "gap_length": 16,
+      "alpha_t": 0.4988,
+      "neural_contribution_pct": 49.88,
+      "status": "YELLOW"
+    },
+    {
+      "confidence_c_t": 0.8,
+      "gap_length": 24,
+      "alpha_t": 0.2494,
+      "neural_contribution_pct": 24.94,
+      "status": "YELLOW"
+    },
+    {
+      "confidence_c_t": 0.8,
+      "gap_length": 32,
+      "alpha_t": 0.0,
+      "neural_contribution_pct": 0.0,
+      "status": "RED (Damped Fallback)"
+    }
+  ]
+}

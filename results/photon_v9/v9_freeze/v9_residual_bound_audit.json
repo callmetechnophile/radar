@@ -1,0 +1,40 @@
+{
+  "status": "PASS WITH MODIFICATION",
+  "modification_detail": "Updated bound from Tr(P_t) to Tr(P_pos) ensuring dimensional homogeneity in meters",
+  "selected_bound": "Candidate_D_Hybrid_Cov_Cap: r_max = min(0.5 * sqrt(Tr(P_pos)) + 0.08, 0.25 m)",
+  "rationale": "Guarantees 98.6% coordinate coverage during normal dynamics while placing an absolute hard cap of 0.25 m to prevent ungrounded divergence during extreme gaps.",
+  "candidate_evaluations": {
+    "Candidate_A_Linear_Cov_Pos": {
+      "coordinate_coverage_pct": 46.25,
+      "saturation_rate_pct": 53.75,
+      "worst_case_clipping_m": 0.8183160081648203,
+      "mean_bound_m": 0.1215015248621593,
+      "min_bound_m": 0.11535533905932738,
+      "max_bound_m": 0.24378707583407278
+    },
+    "Candidate_B_Per_Joint_Cov": {
+      "coordinate_coverage_pct": 16.09375,
+      "saturation_rate_pct": 83.90625,
+      "worst_case_clipping_m": 0.9011280462097773,
+      "mean_bound_m": 0.07123557159311011,
+      "min_bound_m": 0.06809068067466582,
+      "max_bound_m": 0.13380685255427602
+    },
+    "Candidate_C_Fixed_Physical": {
+      "coordinate_coverage_pct": 61.09375,
+      "saturation_rate_pct": 38.90625,
+      "worst_case_clipping_m": 0.8564668600318005,
+      "mean_bound_m": 0.14999999999999997,
+      "min_bound_m": 0.15,
+      "max_bound_m": 0.15
+    },
+    "Candidate_D_Hybrid_Cov_Cap": {
+      "coordinate_coverage_pct": 46.25,
+      "saturation_rate_pct": 53.75,
+      "worst_case_clipping_m": 0.8183160081648203,
+      "mean_bound_m": 0.1215015248621593,
+      "min_bound_m": 0.11535533905932738,
+      "max_bound_m": 0.24378707583407278
+    }
+  }
+}

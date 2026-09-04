@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "parameters": 24777,
+  "fp32_parameter_memory_kb": 96.79,
+  "int8_parameter_memory_kb": 24.2,
+  "estimated_macs_per_frame": 23755,
+  "estimated_flops_per_frame": 50774,
+  "activation_memory_per_frame_kb": 2.8,
+  "sequence_buffer_memory_16_frames_kb": 8.5,
+  "peak_ram_estimate_kb": 137.29,
+  "target_class": "MICRO (<=25k params, <=100 KB FP32)",
+  "deployment_feasibility": "Fully compliant with embedded Cortex-M / Arduino UNO Q onboard memory targets"
+}

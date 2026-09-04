@@ -1,0 +1,1375 @@
+{
+  "status": "PASS",
+  "total_dimensions": 136,
+  "breakdown": {
+    "s_math_positions": 66,
+    "s_math_velocities": 66,
+    "uncertainty_trace_pos": 1,
+    "confidence_ct": 1,
+    "radial_error_er": 1,
+    "observation_mask_mt": 1
+  },
+  "formula": "132 + 1 + 1 + 1 + 1 = 136",
+  "features": [
+    {
+      "index": 0,
+      "feature_name": "s_math_pos_Pelvis (Root)_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Pelvis (Root) along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 1,
+      "feature_name": "s_math_pos_Pelvis (Root)_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Pelvis (Root) along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 2,
+      "feature_name": "s_math_pos_Pelvis (Root)_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Pelvis (Root) along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 3,
+      "feature_name": "s_math_pos_Left Hip_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Hip along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 4,
+      "feature_name": "s_math_pos_Left Hip_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Hip along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 5,
+      "feature_name": "s_math_pos_Left Hip_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Hip along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 6,
+      "feature_name": "s_math_pos_Right Hip_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Hip along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 7,
+      "feature_name": "s_math_pos_Right Hip_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Hip along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 8,
+      "feature_name": "s_math_pos_Right Hip_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Hip along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 9,
+      "feature_name": "s_math_pos_Spine 1_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Spine 1 along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 10,
+      "feature_name": "s_math_pos_Spine 1_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Spine 1 along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 11,
+      "feature_name": "s_math_pos_Spine 1_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Spine 1 along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 12,
+      "feature_name": "s_math_pos_Left Knee_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Knee along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 13,
+      "feature_name": "s_math_pos_Left Knee_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Knee along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 14,
+      "feature_name": "s_math_pos_Left Knee_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Knee along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 15,
+      "feature_name": "s_math_pos_Right Knee_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Knee along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 16,
+      "feature_name": "s_math_pos_Right Knee_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Knee along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 17,
+      "feature_name": "s_math_pos_Right Knee_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Knee along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 18,
+      "feature_name": "s_math_pos_Spine 2_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Spine 2 along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 19,
+      "feature_name": "s_math_pos_Spine 2_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Spine 2 along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 20,
+      "feature_name": "s_math_pos_Spine 2_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Spine 2 along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 21,
+      "feature_name": "s_math_pos_Left Ankle_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Ankle along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 22,
+      "feature_name": "s_math_pos_Left Ankle_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Ankle along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 23,
+      "feature_name": "s_math_pos_Left Ankle_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Ankle along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 24,
+      "feature_name": "s_math_pos_Right Ankle_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Ankle along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 25,
+      "feature_name": "s_math_pos_Right Ankle_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Ankle along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 26,
+      "feature_name": "s_math_pos_Right Ankle_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Ankle along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 27,
+      "feature_name": "s_math_pos_Spine 3_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Spine 3 along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 28,
+      "feature_name": "s_math_pos_Spine 3_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Spine 3 along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 29,
+      "feature_name": "s_math_pos_Spine 3_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Spine 3 along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 30,
+      "feature_name": "s_math_pos_Left Foot_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Foot along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 31,
+      "feature_name": "s_math_pos_Left Foot_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Foot along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 32,
+      "feature_name": "s_math_pos_Left Foot_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Foot along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 33,
+      "feature_name": "s_math_pos_Right Foot_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Foot along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 34,
+      "feature_name": "s_math_pos_Right Foot_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Foot along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 35,
+      "feature_name": "s_math_pos_Right Foot_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Foot along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 36,
+      "feature_name": "s_math_pos_Neck_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Neck along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 37,
+      "feature_name": "s_math_pos_Neck_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Neck along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 38,
+      "feature_name": "s_math_pos_Neck_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Neck along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 39,
+      "feature_name": "s_math_pos_Left Collar_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Collar along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 40,
+      "feature_name": "s_math_pos_Left Collar_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Collar along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 41,
+      "feature_name": "s_math_pos_Left Collar_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Collar along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 42,
+      "feature_name": "s_math_pos_Right Collar_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Collar along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 43,
+      "feature_name": "s_math_pos_Right Collar_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Collar along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 44,
+      "feature_name": "s_math_pos_Right Collar_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Collar along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 45,
+      "feature_name": "s_math_pos_Head_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Head along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 46,
+      "feature_name": "s_math_pos_Head_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Head along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 47,
+      "feature_name": "s_math_pos_Head_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Head along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 48,
+      "feature_name": "s_math_pos_Left Shoulder_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Shoulder along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 49,
+      "feature_name": "s_math_pos_Left Shoulder_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Shoulder along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 50,
+      "feature_name": "s_math_pos_Left Shoulder_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Shoulder along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 51,
+      "feature_name": "s_math_pos_Right Shoulder_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Shoulder along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 52,
+      "feature_name": "s_math_pos_Right Shoulder_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Shoulder along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 53,
+      "feature_name": "s_math_pos_Right Shoulder_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Shoulder along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 54,
+      "feature_name": "s_math_pos_Left Elbow_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Elbow along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 55,
+      "feature_name": "s_math_pos_Left Elbow_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Elbow along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 56,
+      "feature_name": "s_math_pos_Left Elbow_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Elbow along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 57,
+      "feature_name": "s_math_pos_Right Elbow_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Elbow along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 58,
+      "feature_name": "s_math_pos_Right Elbow_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Elbow along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 59,
+      "feature_name": "s_math_pos_Right Elbow_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Elbow along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 60,
+      "feature_name": "s_math_pos_Left Wrist_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Wrist along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 61,
+      "feature_name": "s_math_pos_Left Wrist_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Wrist along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 62,
+      "feature_name": "s_math_pos_Left Wrist_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Left Wrist along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 63,
+      "feature_name": "s_math_pos_Right Wrist_x",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Wrist along x-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 64,
+      "feature_name": "s_math_pos_Right Wrist_y",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Wrist along y-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 65,
+      "feature_name": "s_math_pos_Right Wrist_z",
+      "dimension": 1,
+      "unit": "meters",
+      "source": "V8.1 Canonical Estimator (x_state[6*j : 6*j+3])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D position of Right Wrist along z-axis",
+      "temporal_behavior": "Continuous kinematic trajectory updated via Kalman filtering"
+    },
+    {
+      "index": 66,
+      "feature_name": "s_math_vel_Pelvis (Root)_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Pelvis (Root) along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 67,
+      "feature_name": "s_math_vel_Pelvis (Root)_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Pelvis (Root) along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 68,
+      "feature_name": "s_math_vel_Pelvis (Root)_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Pelvis (Root) along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 69,
+      "feature_name": "s_math_vel_Left Hip_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Hip along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 70,
+      "feature_name": "s_math_vel_Left Hip_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Hip along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 71,
+      "feature_name": "s_math_vel_Left Hip_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Hip along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 72,
+      "feature_name": "s_math_vel_Right Hip_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Hip along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 73,
+      "feature_name": "s_math_vel_Right Hip_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Hip along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 74,
+      "feature_name": "s_math_vel_Right Hip_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Hip along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 75,
+      "feature_name": "s_math_vel_Spine 1_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Spine 1 along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 76,
+      "feature_name": "s_math_vel_Spine 1_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Spine 1 along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 77,
+      "feature_name": "s_math_vel_Spine 1_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Spine 1 along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 78,
+      "feature_name": "s_math_vel_Left Knee_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Knee along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 79,
+      "feature_name": "s_math_vel_Left Knee_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Knee along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 80,
+      "feature_name": "s_math_vel_Left Knee_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Knee along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 81,
+      "feature_name": "s_math_vel_Right Knee_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Knee along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 82,
+      "feature_name": "s_math_vel_Right Knee_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Knee along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 83,
+      "feature_name": "s_math_vel_Right Knee_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Knee along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 84,
+      "feature_name": "s_math_vel_Spine 2_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Spine 2 along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 85,
+      "feature_name": "s_math_vel_Spine 2_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Spine 2 along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 86,
+      "feature_name": "s_math_vel_Spine 2_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Spine 2 along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 87,
+      "feature_name": "s_math_vel_Left Ankle_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Ankle along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 88,
+      "feature_name": "s_math_vel_Left Ankle_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Ankle along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 89,
+      "feature_name": "s_math_vel_Left Ankle_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Ankle along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 90,
+      "feature_name": "s_math_vel_Right Ankle_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Ankle along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 91,
+      "feature_name": "s_math_vel_Right Ankle_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Ankle along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 92,
+      "feature_name": "s_math_vel_Right Ankle_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Ankle along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 93,
+      "feature_name": "s_math_vel_Spine 3_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Spine 3 along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 94,
+      "feature_name": "s_math_vel_Spine 3_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Spine 3 along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 95,
+      "feature_name": "s_math_vel_Spine 3_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Spine 3 along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 96,
+      "feature_name": "s_math_vel_Left Foot_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Foot along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 97,
+      "feature_name": "s_math_vel_Left Foot_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Foot along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 98,
+      "feature_name": "s_math_vel_Left Foot_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Foot along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 99,
+      "feature_name": "s_math_vel_Right Foot_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Foot along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 100,
+      "feature_name": "s_math_vel_Right Foot_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Foot along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 101,
+      "feature_name": "s_math_vel_Right Foot_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Foot along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 102,
+      "feature_name": "s_math_vel_Neck_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Neck along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 103,
+      "feature_name": "s_math_vel_Neck_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Neck along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 104,
+      "feature_name": "s_math_vel_Neck_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Neck along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 105,
+      "feature_name": "s_math_vel_Left Collar_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Collar along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 106,
+      "feature_name": "s_math_vel_Left Collar_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Collar along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 107,
+      "feature_name": "s_math_vel_Left Collar_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Collar along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 108,
+      "feature_name": "s_math_vel_Right Collar_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Collar along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 109,
+      "feature_name": "s_math_vel_Right Collar_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Collar along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 110,
+      "feature_name": "s_math_vel_Right Collar_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Collar along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 111,
+      "feature_name": "s_math_vel_Head_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Head along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 112,
+      "feature_name": "s_math_vel_Head_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Head along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 113,
+      "feature_name": "s_math_vel_Head_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Head along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 114,
+      "feature_name": "s_math_vel_Left Shoulder_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Shoulder along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 115,
+      "feature_name": "s_math_vel_Left Shoulder_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Shoulder along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 116,
+      "feature_name": "s_math_vel_Left Shoulder_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Shoulder along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 117,
+      "feature_name": "s_math_vel_Right Shoulder_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Shoulder along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 118,
+      "feature_name": "s_math_vel_Right Shoulder_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Shoulder along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 119,
+      "feature_name": "s_math_vel_Right Shoulder_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Shoulder along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 120,
+      "feature_name": "s_math_vel_Left Elbow_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Elbow along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 121,
+      "feature_name": "s_math_vel_Left Elbow_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Elbow along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 122,
+      "feature_name": "s_math_vel_Left Elbow_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Elbow along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 123,
+      "feature_name": "s_math_vel_Right Elbow_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Elbow along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 124,
+      "feature_name": "s_math_vel_Right Elbow_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Elbow along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 125,
+      "feature_name": "s_math_vel_Right Elbow_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Elbow along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 126,
+      "feature_name": "s_math_vel_Left Wrist_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Wrist along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 127,
+      "feature_name": "s_math_vel_Left Wrist_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Wrist along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 128,
+      "feature_name": "s_math_vel_Left Wrist_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Left Wrist along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 129,
+      "feature_name": "s_math_vel_Right Wrist_vx",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Wrist along vx-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 130,
+      "feature_name": "s_math_vel_Right Wrist_vy",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Wrist along vy-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 131,
+      "feature_name": "s_math_vel_Right Wrist_vz",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Canonical Estimator (x_state[6*j+3 : 6*j+6])",
+      "normalization": "Robust IQR scaling (train median centered, divided by train IQR)",
+      "physical_meaning": "Estimated Cartesian 3D velocity of Right Wrist along vz-axis",
+      "temporal_behavior": "First-order kinematic derivative damped by gamma=0.96"
+    },
+    {
+      "index": 132,
+      "feature_name": "uncertainty_trace_pos",
+      "dimension": 1,
+      "unit": "meters^2",
+      "source": "V8.1 Canonical Estimator (Tr(P_position) = sum_{j=0}^{21} sum_{k=0}^2 P_{6j+k, 6j+k})",
+      "normalization": "Log-transform: log1p(Tr(P_pos))",
+      "physical_meaning": "Trace of the positional covariance submatrix representing spatial dispersion",
+      "temporal_behavior": "Monotonically grows during unobserved gaps; collapses upon valid observation"
+    },
+    {
+      "index": 133,
+      "feature_name": "observation_confidence_ct",
+      "dimension": 1,
+      "unit": "dimensionless [0, 1]",
+      "source": "V8.1 SensorFusionConfidenceEngine",
+      "normalization": "Identity (strictly bounded within [0, 1])",
+      "physical_meaning": "Dynamic observation confidence combining sensor availability and innovation",
+      "temporal_behavior": "Instantaneously drops on sensor loss, exponentially decays over gaps"
+    },
+    {
+      "index": 134,
+      "feature_name": "radial_velocity_error_er",
+      "dimension": 1,
+      "unit": "meters/second",
+      "source": "V8.1 Radar Doppler EKF Innovation (v_r_meas - v_r_pred)",
+      "normalization": "Robust IQR scaling",
+      "physical_meaning": "Radar Doppler radial velocity innovation discrepancy",
+      "temporal_behavior": "Impulsive during sudden athletic accelerations; zero when unobserved"
+    },
+    {
+      "index": 135,
+      "feature_name": "observation_mask_mt",
+      "dimension": 1,
+      "unit": "binary {0, 1}",
+      "source": "Sensor hardware observation flag (radar_mask | lidar_mask)",
+      "normalization": "Identity ({0, 1})",
+      "physical_meaning": "Binary observation indicator (1 = sensor observation present, 0 = missing)",
+      "temporal_behavior": "Step function indicating temporal availability and gap transitions"
+    }
+  ]
+}

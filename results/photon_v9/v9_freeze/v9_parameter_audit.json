@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "target_budget": 25000,
+  "total_trainable_parameters": 24777,
+  "margin_under_budget": 223,
+  "fp32_weight_memory_kb": 96.79,
+  "modification_rationale": "Adjusted internal SSM state dimension d_inner from 48 to 47 and removed redundant biases on stem and residual head. Zero-centered residual targets eliminate the need for head bias while LayerNorm handles stem bias. This achieves strictly <=25,000 parameters without altering d_model=64, d_state=16, or temporal capacity.",
+  "breakdown": {
+    "stem_in_proj": {
+      "layer": "nn.Linear(136, 64, bias=False)",
+      "parameters": 8704,
+      "pct_of_total": 35.13
+    },
+    "stem_layernorm": {
+      "layer": "nn.LayerNorm(64)",
+      "parameters": 128,
+      "pct_of_total": 0.52
+    },
+    "ssm_temporal_core": {
+      "layer": "FallbackSSMBackend(d_model=64, d_state=16, d_inner=47, d_conv=3)",
+      "parameters": 11656,
+      "pct_of_total": 47.04,
+      "internal_breakdown": {
+        "in_proj (64 -> 94)": 6016,
+        "conv1d (47, 47, k=3, g=47)": 188,
+        "x_proj (47 -> 33)": 1551,
+        "dt_proj (1 -> 47)": 94,
+        "A_log (47 x 16)": 752,
+        "D (47)": 47,
+        "out_proj (47 -> 64)": 3008
+      }
+    },
+    "residual_head": {
+      "layer": "nn.Linear(64, 66, bias=False)",
+      "parameters": 4224,
+      "pct_of_total": 17.05
+    },
+    "uncertainty_head": {
+      "layer": "nn.Linear(64, 1, bias=True)",
+      "parameters": 65,
+      "pct_of_total": 0.26
+    },
+    "binn_pocs_layer": {
+      "layer": "Deterministic AdvancedSkeletalConstraints",
+      "parameters": 0,
+      "pct_of_total": 0.0
+    },
+    "confidence_gating": {
+      "layer": "Analytical formula (beta=10, c0=0.20)",
+      "parameters": 0,
+      "pct_of_total": 0.0
+    }
+  }
+}
