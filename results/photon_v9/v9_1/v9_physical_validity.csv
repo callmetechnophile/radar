@@ -1,0 +1,7 @@
+model,bone_violation_pct,max_bone_err_mm,joint_violation_pct,acc_bound_pct
+V8.1 Analytical,0.0,0.0,0.0,100.0
+MLP Residual,14.8,48.2,8.2,89.2
+TCN Residual,11.2,39.1,6.1,92.4
+GRU Residual,9.4,32.5,5.4,93.8
+Mamba Residual,7.8,26.4,4.2,95.6
+Full V9 (with POCS),0.0,0.0,0.0,99.8

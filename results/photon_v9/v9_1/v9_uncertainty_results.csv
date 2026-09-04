@@ -1,0 +1,4 @@
+uncertainty_source,error_correlation,coverage_95_pct,calibration_error
+Analytical Tr(P_pos),0.944,94.8,0.038
+Neural Head sigma^2,0.892,93.1,0.052
+Combined Total Variance,0.962,95.4,0.024

@@ -1,0 +1,19 @@
+{
+  "m4human_split_frames": {
+    "train": 495750,
+    "validation": 33050,
+    "test": 132200
+  },
+  "tensorized_windows_evaluated": {
+    "train": 2560,
+    "val": 640,
+    "test": 1280
+  },
+  "T_window": 16,
+  "dt": 0.03333,
+  "normalization": "Robust IQR scaling strictly from train split",
+  "norm_stats_sample": {
+    "feat_median_0": 0.22175586223602295,
+    "feat_iqr_0": 0.5167412161827087
+  }
+}

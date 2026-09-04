@@ -1,0 +1,36 @@
+{
+  "phase": "V9.1 — Controlled Neural Residual Training",
+  "frozen_architecture": "PhotonShield V9-Mamba Residual Physics Corrector",
+  "input_dimension": 136,
+  "output_dimension": 66,
+  "temporal_window_T": 16,
+  "sampling_rate_hz": 30.0,
+  "dt_seconds": 0.033333,
+  "causal": true,
+  "parameter_budget_max": 25000,
+  "parameters": 24777,
+  "fp32_memory_kb": 96.79,
+  "training": {
+    "optimizer": "AdamW",
+    "base_learning_rate": 0.001,
+    "min_learning_rate": 0.00001,
+    "weight_decay": 0.0001,
+    "scheduler": "CosineAnnealingLR",
+    "batch_size": 16,
+    "epochs": 12,
+    "gradient_clipping": 1.0,
+    "random_seeds": [42, 123, 2026],
+    "loss_weights": {
+      "lambda_residual": 1.0,
+      "lambda_bone": 0.15,
+      "lambda_uncertainty": 0.05
+    }
+  },
+  "inference_safeguards": {
+    "residual_bounding": "r_max = min(0.5 * sqrt(Tr(P_position)) + 0.08, 0.25 m)",
+    "confidence_gating": "alpha_t = sigmoid(10 * (c_t - 0.20))",
+    "binn_pocs": "Hierarchical Kinematic Tree + Rodrigues Cone Global Least Squares",
+    "zero_residual_fallback": "Revert to V8.1 analytical estimator on NaN/Inf/c_t < 0.02"
+  },
+  "device": "NVIDIA GeForce RTX 5050 Laptop GPU (CUDA enabled)"
+}

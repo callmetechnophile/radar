@@ -1,0 +1,6 @@
+model,single_frame_ms,seq_16_frames_ms,fps,status
+MLP,0.041,0.658,24300.1,PASS (Real-time at >30 FPS)
+TCN,0.115,1.833,8728.8,PASS (Real-time at >30 FPS)
+GRU,0.046,0.741,21587.2,PASS (Real-time at >30 FPS)
+Mamba,0.73,11.684,1369.4,PASS (Real-time at >30 FPS)
+Full V9,0.755,12.079,1324.6,PASS (Real-time at >30 FPS)

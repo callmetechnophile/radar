@@ -1,0 +1,11 @@
+stress_type,v8_1,full_v9,delta_pct
+Radar Density 100%,15.1,10.4,-31.1
+Radar Density 50%,24.2,14.8,-38.8
+Radar Density 25%,41.6,23.5,-43.5
+Radar Density 5%,78.4,42.1,-46.3
+LiDAR Dropout 100% (Radar Only),21.4,13.6,-36.4
+LiDAR Dropout 0% (Clean LiDAR),14.2,10.1,-28.9
+Radial Velocity Bias 0.25 m/s,22.0,14.2,-35.5
+Radial Velocity Bias 1.00 m/s,39.8,24.1,-39.4
+Timestamp Jitter 20 ms,26.5,15.9,-40.0
+Calibration Misalignment 25 mm,29.4,17.0,-42.2

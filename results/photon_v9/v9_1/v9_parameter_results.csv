@@ -1,0 +1,7 @@
+model,parameters,fp32_memory_kb,macs_per_frame,flops_per_frame
+V8.1 Analytical,0,0.0,0,0
+MLP Residual,17152,67.0,17152,34304
+TCN Residual,24360,95.16,24360,48720
+GRU Residual,23902,93.37,23902,47804
+Mamba Residual,24777,96.79,23755,50774
+Full V9,24777,96.79,23755,50774
