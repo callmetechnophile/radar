@@ -1,0 +1,28 @@
+{
+  "mathematical_root_cause": "Noise Amplification in Second-Order Discrete Finite Difference: d^2(p)/dt^2 amplifies positional measurement noise by 1/(dt^2) = 1/(0.03333)^2 = 900 s^-2. A tiny 1.5 cm noise produces ~18 m/s^2 raw acceleration, exceeding human physiological maximum (~3.2 m/s^2).",
+  "ground_truth_acceleration": {
+    "mean": 0.47825119597547044,
+    "std": 0.5247637251774472,
+    "p50": 0.35219091176986694,
+    "p75": 0.4332365095615387,
+    "p90": 1.2309021949768066,
+    "p95": 1.9472116470336913,
+    "p99": 2.416799955368042,
+    "max": 2.4319772720336914
+  },
+  "raw_discrete_noisy_acceleration": {
+    "mean": 70.42450021372066,
+    "p50": 67.67941861689366,
+    "p95": 124.4401461856722,
+    "max": 240.43197180438207,
+    "violation_rate_vs_clean_bound": 1.0
+  },
+  "kalman_state_filtered_acceleration": {
+    "mean": 1.413474405785835,
+    "p50": 1.2443107508038966,
+    "p95": 3.2403440271365294,
+    "max": 7.2686804522784,
+    "violation_rate_vs_clean_bound": 0.05607954545454545
+  },
+  "resolution": "Evaluate acceleration using Kalman continuous state acceleration instead of raw finite difference"
+}

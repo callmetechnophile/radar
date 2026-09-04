@@ -1,0 +1,7 @@
+{
+  "mae": 0.06417196922857334,
+  "rmse": 0.0798984156920263,
+  "median": 0.0546767407126946,
+  "p95": 0.1553636580112496,
+  "recommendation": "Confidence-weighted soft EKF update (hard constraint causes over-constraining along lateral axis)"
+}

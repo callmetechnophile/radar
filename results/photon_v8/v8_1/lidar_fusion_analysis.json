@@ -1,0 +1,7 @@
+{
+  "radar_only_mpjpe": 67.5,
+  "lidar_only_mpjpe": 34.7,
+  "radar_plus_lidar_fused": 33.1,
+  "radar_lidar_global_pocs": 21.2,
+  "mechanism": "LiDAR provides narrow covariance (sigma_L=0.02m vs sigma_R=0.05m), anchoring absolute global root translation while radar contributes Doppler velocity."
+}

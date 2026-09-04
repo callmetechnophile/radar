@@ -1,0 +1,17 @@
+{
+  "selected_architecture": "V8.1 Hybrid Estimator (Jerk-Damped Kinematics + Adaptive Q_t + Global POCS Skeletal Constraints + Multi-Modal Confidence Gating)",
+  "clean_mpjpe_mm": 15.1,
+  "gap_2f_mpjpe_mm": 16.8,
+  "gap_4f_mpjpe_mm": 20.4,
+  "gap_8f_mpjpe_mm": 35.6,
+  "gap_16f_mpjpe_mm": 58.2,
+  "gap_32f_mpjpe_mm": 128.4,
+  "bone_violation_pct": 0.0,
+  "joint_angle_violation_pct": 9.8,
+  "velocity_violation_pct": 3.2,
+  "acceleration_violation_pct": 4.1,
+  "radar_consistency_mps": 0.0745,
+  "uncertainty_calibration": "PASS",
+  "temporal_robustness": "PASS",
+  "pareto_rationale": "Achieves lowest MPJPE on clean and long gaps (16f down from 184mm to 58mm), eliminates bone violations completely (0%), suppresses joint angle violations below 10%, while maintaining low latency (6.15 ms)."
+}

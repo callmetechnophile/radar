@@ -1,0 +1,8 @@
+configuration,mpjpe,pa_mpjpe,acc_mae,bone_viol,joint_viol,gap_16f,latency_ms
+1. Baseline V8-MATH (Clean),19.7,17.9,2.45,32.7,53.4,184.0,5.04
+2. + Jerk-Limited / Damped Kinematics,19.4,17.7,2.1,32.7,53.4,118.5,5.12
+3. + Adaptive Process Noise Q_t,18.9,17.3,1.95,32.7,53.4,94.2,5.25
+4. + Hierarchical Bone Tree Projection,17.2,15.8,1.85,0.0,48.1,86.4,5.48
+5. + Global POCS Joint Angle Cones,16.5,14.9,1.7,0.0,12.3,78.1,5.82
+6. + Confidence-Weighted Observation Gating,15.8,14.2,1.55,0.0,12.3,68.4,5.95
+7. Full V8.1 Hybrid Estimator,15.1,13.6,1.42,0.0,9.8,58.2,6.15

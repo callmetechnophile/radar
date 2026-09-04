@@ -1,0 +1,18 @@
+{
+  "A_unprojected": {
+    "bone_violation_pct": 81.45833333333334,
+    "joint_violation_pct": 68.15178571428572
+  },
+  "B_pairwise_relaxation": {
+    "bone_violation_pct": 74.89880952380953,
+    "joint_violation_pct": 65.62500000000001
+  },
+  "C_hierarchical_tree": {
+    "bone_violation_pct": 0.0,
+    "joint_violation_pct": 65.61607142857142
+  },
+  "D_global_pocs": {
+    "bone_violation_pct": 0.0,
+    "joint_violation_pct": 46.598214285714285
+  }
+}
