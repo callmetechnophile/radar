@@ -1,0 +1,9 @@
+exp_id,name,model_type,params,inputs,loss,seeds
+0,V8.2 Analytical Baseline,None (Mathematical),0,136-D,N/A,N/A
+1,MLP Residual Corrector,Candidate B (MLP),17474,136-D,Smooth L1 (Pose),"42, 123, 456"
+2,TCN Residual Corrector,Candidate C (TCN),48288,136-D,Smooth L1 (Pose),"42, 123, 456"
+3,GRU Residual Corrector,Candidate D (GRU),44418,136-D,Smooth L1 (Pose),"42, 123, 456"
+4,Mamba SSM Residual Corrector,Candidate E (Mamba),24898,136-D,Smooth L1 (Pose),"42, 123, 456"
+5,Mamba + BINN Constraints,Candidate E + BINN,24898,136-D,Composite Physics Loss,"42, 123, 456"
+6,Mamba + BINN + Gating,Candidate E + BINN + Gate,24898,136-D,Composite Physics Loss,"42, 123, 456"
+7,Full Proposed Architecture,Mamba + BINN + Gate + UncHead,25155,136-D,Multi-Task Composite Loss,"42, 123, 456"

@@ -1,0 +1,38 @@
+{
+  "A_position_residual": {
+    "dim": 66,
+    "variance": 0.009887249371910534,
+    "snr_db": 21.049119309202197,
+    "predictability": "HIGH",
+    "physical_interpretation": "Direct correction to 3D joint Cartesian coordinates",
+    "pros": "Zero gradient conflict; directly aligns with MPJPE objective",
+    "cons": "Requires subsequent velocity state derivation",
+    "status": "RECOMMENDED_PRIMARY_TARGET"
+  },
+  "B_velocity_residual": {
+    "dim": 66,
+    "variance": 1.2769601568859972,
+    "predictability": "MODERATE",
+    "physical_interpretation": "Correction to joint velocity vector",
+    "pros": "Directly adjusts momentum",
+    "cons": "Subject to finite-difference noise amplification (1/dt)",
+    "status": "SECONDARY_OR_INFERRED"
+  },
+  "C_acceleration_residual": {
+    "dim": 66,
+    "variance": 428.41207587804774,
+    "predictability": "LOW",
+    "physical_interpretation": "Correction to dynamic joint acceleration",
+    "pros": "Encodes ballistic action forces directly",
+    "cons": "Extremely noisy (1/dt^2 noise amplification factor of 900)",
+    "status": "UNSTABLE_AS_DIRECT_REGRESSION_TARGET"
+  },
+  "D_multi_head_pos_vel": {
+    "dim": 132,
+    "predictability": "HIGH",
+    "physical_interpretation": "Joint prediction of position and velocity residuals",
+    "pros": "Simultaneously updates full Kalman state vector",
+    "cons": "Requires loss weighting hyperparameter lambda_v to balance position vs velocity gradients",
+    "status": "FEASIBLE_ALTERNATIVE"
+  }
+}

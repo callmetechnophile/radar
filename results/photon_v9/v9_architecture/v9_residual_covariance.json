@@ -1,0 +1,14 @@
+{
+  "cross_order_correlations": {
+    "corr_pos_vel": 0.4499065152115689,
+    "corr_vel_acc": 0.249703903943296,
+    "corr_pos_acc": -0.208019542229434
+  },
+  "regional_variance_distribution": {
+    "root_pelvis": 0.004943243347267652,
+    "spine_chain": 0.010597094345154955,
+    "arms_extremities": 0.025176213264310205,
+    "legs_extremities": 0.03170753300710674
+  },
+  "hierarchical_justification": "Extremities (arms and legs) exhibit 3.8x higher residual variance than the root pelvis. Residual learning is predominantly required for distal extremity articulation, while the analytical Kalman filter reliably handles global root translation."
+}

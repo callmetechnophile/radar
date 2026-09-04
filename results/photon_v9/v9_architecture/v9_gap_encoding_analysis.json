@@ -1,0 +1,17 @@
+{
+  "comparison": {
+    "binary_mask_only": {
+      "pros": "Simple, 1-bit per frame, zero hyperparameter",
+      "cons": "Network must internally integrate gap duration"
+    },
+    "continuous_gap_counter": {
+      "pros": "Explicitly feeds consecutive missing frame count N_gap",
+      "cons": "Redundant with confidence metric c_t = 0.85^(N_gap)"
+    },
+    "normalized_gap_encoding": {
+      "pros": "N_gap / 32 in [0, 1] provides well-scaled ramp",
+      "cons": "Linear ramp does not reflect exponential covariance growth"
+    }
+  },
+  "conclusion": "The 136-D schema already provides `c_t` which scales exponentially with gap length, and `observation_mask` m_t. Adding a third gap feature is mathematically redundant and increases parameter overhead without introducing new mutual information."
+}

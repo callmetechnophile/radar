@@ -1,0 +1,837 @@
+{
+  "interface_name": "V8.1_To_V9_Analytical_Neural_Contract",
+  "total_dimensions": 136,
+  "sampling_rate_hz": 30.0,
+  "dt_seconds": 0.03333,
+  "feature_groups": [
+    {
+      "group_name": "analytical_joint_positions",
+      "indices": [
+        0,
+        65
+      ],
+      "dimension": 66,
+      "sub_features": [
+        {
+          "index_range": [
+            0,
+            2
+          ],
+          "joint_id": 0,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            3,
+            5
+          ],
+          "joint_id": 1,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            6,
+            8
+          ],
+          "joint_id": 2,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            9,
+            11
+          ],
+          "joint_id": 3,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            12,
+            14
+          ],
+          "joint_id": 4,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            15,
+            17
+          ],
+          "joint_id": 5,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            18,
+            20
+          ],
+          "joint_id": 6,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            21,
+            23
+          ],
+          "joint_id": 7,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            24,
+            26
+          ],
+          "joint_id": 8,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            27,
+            29
+          ],
+          "joint_id": 9,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            30,
+            32
+          ],
+          "joint_id": 10,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            33,
+            35
+          ],
+          "joint_id": 11,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            36,
+            38
+          ],
+          "joint_id": 12,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            39,
+            41
+          ],
+          "joint_id": 13,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            42,
+            44
+          ],
+          "joint_id": 14,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            45,
+            47
+          ],
+          "joint_id": 15,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            48,
+            50
+          ],
+          "joint_id": 16,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            51,
+            53
+          ],
+          "joint_id": 17,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            54,
+            56
+          ],
+          "joint_id": 18,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            57,
+            59
+          ],
+          "joint_id": 19,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            60,
+            62
+          ],
+          "joint_id": 20,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            63,
+            65
+          ],
+          "joint_id": 21,
+          "components": [
+            "p_x",
+            "p_y",
+            "p_z"
+          ],
+          "unit": "meters",
+          "source": "V8.1 Damped Kinematics + POCS Projected Kalman State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        }
+      ]
+    },
+    {
+      "group_name": "analytical_joint_velocities",
+      "indices": [
+        66,
+        131
+      ],
+      "dimension": 66,
+      "sub_features": [
+        {
+          "index_range": [
+            66,
+            68
+          ],
+          "joint_id": 0,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            69,
+            71
+          ],
+          "joint_id": 1,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            72,
+            74
+          ],
+          "joint_id": 2,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            75,
+            77
+          ],
+          "joint_id": 3,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            78,
+            80
+          ],
+          "joint_id": 4,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            81,
+            83
+          ],
+          "joint_id": 5,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            84,
+            86
+          ],
+          "joint_id": 6,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            87,
+            89
+          ],
+          "joint_id": 7,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            90,
+            92
+          ],
+          "joint_id": 8,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            93,
+            95
+          ],
+          "joint_id": 9,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            96,
+            98
+          ],
+          "joint_id": 10,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            99,
+            101
+          ],
+          "joint_id": 11,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            102,
+            104
+          ],
+          "joint_id": 12,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            105,
+            107
+          ],
+          "joint_id": 13,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            108,
+            110
+          ],
+          "joint_id": 14,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            111,
+            113
+          ],
+          "joint_id": 15,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            114,
+            116
+          ],
+          "joint_id": 16,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            117,
+            119
+          ],
+          "joint_id": 17,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            120,
+            122
+          ],
+          "joint_id": 18,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            123,
+            125
+          ],
+          "joint_id": 19,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            126,
+            128
+          ],
+          "joint_id": 20,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        },
+        {
+          "index_range": [
+            129,
+            131
+          ],
+          "joint_id": 21,
+          "components": [
+            "v_x",
+            "v_y",
+            "v_z"
+          ],
+          "unit": "m/s",
+          "source": "V8.1 Damped Kinematics Velocity State",
+          "dynamic": true,
+          "observed_or_inferred": "INFERRED_POSTERIOR",
+          "normalization": "robust_standardization"
+        }
+      ]
+    },
+    {
+      "group_name": "state_uncertainty_trace",
+      "indices": [
+        132,
+        132
+      ],
+      "dimension": 1,
+      "unit": "m^2",
+      "source": "Kalman Covariance Tr(P_t)",
+      "dynamic": true,
+      "observed_or_inferred": "INFERRED_COVARIANCE",
+      "meaning": "Scalar trace of 132x132 state covariance representing total kinematic dispersion",
+      "normalization": "log1p_scaling"
+    },
+    {
+      "group_name": "observation_confidence",
+      "indices": [
+        133,
+        133
+      ],
+      "dimension": 1,
+      "unit": "unitless in [0, 1]",
+      "source": "SensorFusionConfidenceEngine c_t",
+      "dynamic": true,
+      "observed_or_inferred": "INFERRED_CONFIDENCE",
+      "meaning": "Dynamic observation quality weighting accounting for sensor presence, innovation, and missing horizons",
+      "normalization": "identity (already in [0, 1])"
+    },
+    {
+      "group_name": "radial_velocity_error",
+      "indices": [
+        134,
+        134
+      ],
+      "dimension": 1,
+      "unit": "m/s",
+      "source": "Radar Doppler Radial Velocity Innovation e_r = v_r,meas - (p^T v)/||p||",
+      "dynamic": true,
+      "observed_or_inferred": "DIRECT_MEASUREMENT_RESIDUAL",
+      "meaning": "Discrepancy between Doppler radar radial velocity and predicted centroid range-rate",
+      "normalization": "standard_deviation_scaling"
+    },
+    {
+      "group_name": "observation_mask",
+      "indices": [
+        135,
+        135
+      ],
+      "dimension": 1,
+      "unit": "binary {0, 1}",
+      "source": "Observation Mask m_t",
+      "dynamic": true,
+      "observed_or_inferred": "DIRECT_MEASUREMENT_FLAG",
+      "meaning": "1 if direct physical sensor observation exists at t, 0 during missing gap horizon",
+      "normalization": "identity"
+    }
+  ],
+  "strict_constraints": [
+    "NO raw point clouds directly fed to residual core",
+    "NO modification of the 136-D contract without empirical proof",
+    "Feature ordering MUST match schema indices exactly"
+  ]
+}

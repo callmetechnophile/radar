@@ -1,0 +1,54 @@
+{
+  "Candidate_A_Analytical_Baseline": {
+    "type": "NONE",
+    "parameters": 0,
+    "flops": 0,
+    "latency_ms": 0.0,
+    "description": "Zero-learned parameter baseline (pure V8.1 analytical estimator)"
+  },
+  "Candidate_B_MLP_Residual": {
+    "type": "FRAMEWISE_MLP",
+    "layers": "Linear(136, 64) -> LayerNorm -> SiLU -> Linear(64, 64) -> SiLU -> Linear(64, 66)",
+    "parameters": 17474,
+    "budget_class": "MICRO",
+    "estimated_flops_per_frame": 35000,
+    "strengths": "Ultra-low latency, zero sequence buffering",
+    "weaknesses": "Cannot model temporal momentum or direction reversals"
+  },
+  "Candidate_C_TCN_Residual": {
+    "type": "TEMPORAL_CONVOLUTIONAL_NETWORK",
+    "layers": "3x Dilated Conv1d (d_in=136, d_hidden=48, kernel=3, dilations=[1, 2, 4]) + Residual Head",
+    "parameters": 48288,
+    "budget_class": "SMALL",
+    "estimated_flops_per_frame": 96500,
+    "strengths": "Fixed finite receptive field, fully parallel inference",
+    "weaknesses": "Requires 16-frame buffer; fixed dilation limits adaptive gap scaling"
+  },
+  "Candidate_D_GRU_Residual": {
+    "type": "GATED_RECURRENT_UNIT",
+    "layers": "Linear(136, 48) -> 2-layer GRU(d_hidden=48) -> Linear(48, 66)",
+    "parameters": 44418,
+    "budget_class": "SMALL",
+    "estimated_flops_per_frame": 88800,
+    "strengths": "Standard recurrence, compact hidden state (96 floats)",
+    "weaknesses": "Prone to exploding/vanishing hidden state over gaps > 24 frames"
+  },
+  "Candidate_E_Mamba_SSM_Residual": {
+    "type": "SELECTIVE_STATE_SPACE_MODEL",
+    "layers": "InputProj(136, 64) -> BiDirectional/Causal Mamba Block (d_model=64, d_state=16) -> Linear(64, 66)",
+    "parameters": 24898,
+    "budget_class": "MICRO",
+    "estimated_flops_per_frame": 52000,
+    "strengths": "Linear-time sequence scaling, input-dependent selective filtering, continuous-time discretization adapts to variable gaps",
+    "weaknesses": "Requires specialized scan implementation on microcontroller hardware"
+  },
+  "Candidate_F_Hybrid_Conv_Mamba": {
+    "type": "CONV_STEM_MAMBA_HYBRID",
+    "layers": "DepthwiseConv1d(k=3) -> MambaBlock(d_model=64, d_state=16) -> MLP Head",
+    "parameters": 38434,
+    "budget_class": "SMALL",
+    "estimated_flops_per_frame": 78000,
+    "strengths": "Combines local high-frequency acceleration capture with long-horizon selective SSM memory",
+    "weaknesses": "Slightly higher compute than pure Mamba"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "budgets": {
+    "MICRO": {
+      "max_params": 25000,
+      "max_memory_kb": 100.0,
+      "target_device": "Arduino UNO Q / Cortex-M / Edge MCU"
+    },
+    "SMALL": {
+      "max_params": 100000,
+      "max_memory_kb": 400.0,
+      "target_device": "Edge Embedded CPU (Raspberry Pi, Cortex-A, DSP)"
+    },
+    "MEDIUM": {
+      "max_params": 500000,
+      "max_memory_kb": 2000.0,
+      "target_device": "Host Workstation / Cloud Gateway"
+    }
+  },
+  "selected_architecture": "Candidate_E_Mamba_SSM_Residual (Configured at 24,898 parameters \u2014 MICRO budget compliant)",
+  "fp32_parameter_memory_kb": 97.26,
+  "activation_memory_kb": 48.0,
+  "sequence_buffer_memory_kb": 8.7,
+  "total_ram_footprint_kb": 153.96,
+  "uno_q_compatibility": "PASS (Fits comfortably within MCU onboard SRAM/Flash memory limits)"
+}

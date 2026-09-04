@@ -1,0 +1,55 @@
+{
+  "groups": [
+    {
+      "group": "Group_A",
+      "features": [
+        "s_math (132-D)"
+      ],
+      "dim": 132,
+      "hypothesis": "Establishes baseline kinematic residual predictability from state alone."
+    },
+    {
+      "group": "Group_B",
+      "features": [
+        "s_math (132-D)",
+        "uncertainty_trace (1-D)"
+      ],
+      "dim": 133,
+      "hypothesis": "Tests whether Kalman covariance trace prevents over-correction in confident states."
+    },
+    {
+      "group": "Group_C",
+      "features": [
+        "s_math (132-D)",
+        "uncertainty_trace (1-D)",
+        "confidence (1-D)"
+      ],
+      "dim": 134,
+      "hypothesis": "Evaluates dynamic observation quality gating in the presence of sensor degradation."
+    },
+    {
+      "group": "Group_D",
+      "features": [
+        "s_math (132-D)",
+        "uncertainty_trace (1-D)",
+        "confidence (1-D)",
+        "radial_velocity_error (1-D)"
+      ],
+      "dim": 135,
+      "hypothesis": "Tests whether Doppler range-rate innovation suppresses radial drift."
+    },
+    {
+      "group": "Group_E_Full",
+      "features": [
+        "s_math (132-D)",
+        "uncertainty_trace (1-D)",
+        "confidence (1-D)",
+        "radial_velocity_error (1-D)",
+        "observation_mask (1-D)"
+      ],
+      "dim": 136,
+      "hypothesis": "Full proposed contract providing explicit binary missingness indicator."
+    }
+  ],
+  "protocol": "All 5 groups will be evaluated across identical training splits to measure marginal information gain per feature."
+}
