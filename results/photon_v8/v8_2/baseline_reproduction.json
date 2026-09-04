@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "clean_mpjpe_mm": 15.234914896163712,
+  "pa_mpjpe_mm": 13.906047069138602,
+  "gap_16f_mpjpe_mm": 84.72781755029828,
+  "gap_32f_mpjpe_mm": 179.1229980658033,
+  "acc_mae_mps2": 22.48404245732931,
+  "bone_violation_pct": 0.0,
+  "joint_violation_pct": 20.67857142857143,
+  "radar_consistency_mps": 0.13442387603677697,
+  "uncertainty_calibration": "PASS"
+}

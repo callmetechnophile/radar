@@ -1,0 +1,95 @@
+{
+  "results": [
+    {
+      "bias_mps": 0.0,
+      "mpjpe": 110.40633670148793,
+      "velocity_mae": 2.9790639495954556,
+      "radial_residual": 0.14763583872227798,
+      "mean_confidence": 0.4464383406620397,
+      "ekf_tolerance": "TOLERANT"
+    },
+    {
+      "bias_mps": 0.05,
+      "mpjpe": 111.06198190587092,
+      "velocity_mae": 2.9812813368252717,
+      "radial_residual": 0.15941345186321504,
+      "mean_confidence": 0.4429598039636297,
+      "ekf_tolerance": "TOLERANT"
+    },
+    {
+      "bias_mps": -0.05,
+      "mpjpe": 109.98858509642223,
+      "velocity_mae": 2.9670289609461173,
+      "radial_residual": 0.14040113380268915,
+      "mean_confidence": 0.4484115508697618,
+      "ekf_tolerance": "TOLERANT"
+    },
+    {
+      "bias_mps": 0.1,
+      "mpjpe": 111.90034130064869,
+      "velocity_mae": 2.9796249190142228,
+      "radial_residual": 0.1745001412272463,
+      "mean_confidence": 0.4385763643782199,
+      "ekf_tolerance": "TOLERANT"
+    },
+    {
+      "bias_mps": -0.1,
+      "mpjpe": 109.82258339982056,
+      "velocity_mae": 2.952156129948577,
+      "radial_residual": 0.13800593789545168,
+      "mean_confidence": 0.44866090092592736,
+      "ekf_tolerance": "TOLERANT"
+    },
+    {
+      "bias_mps": 0.25,
+      "mpjpe": 116.04440374371093,
+      "velocity_mae": 2.969631418939611,
+      "radial_residual": 0.242616837061419,
+      "mean_confidence": 0.4185257187077827,
+      "ekf_tolerance": "TOLERANT"
+    },
+    {
+      "bias_mps": -0.25,
+      "mpjpe": 110.29385657701258,
+      "velocity_mae": 2.8893504616513384,
+      "radial_residual": 0.15713720408389084,
+      "mean_confidence": 0.44108679921641203,
+      "ekf_tolerance": "TOLERANT"
+    },
+    {
+      "bias_mps": 0.5,
+      "mpjpe": 127.82853347281119,
+      "velocity_mae": 2.9050389386864883,
+      "radial_residual": 0.39630355411235035,
+      "mean_confidence": 0.3808952974514195,
+      "ekf_tolerance": "DEGRADED"
+    },
+    {
+      "bias_mps": -0.5,
+      "mpjpe": 115.10063002488623,
+      "velocity_mae": 2.7500729339892334,
+      "radial_residual": 0.2556050342325127,
+      "mean_confidence": 0.411023542488684,
+      "ekf_tolerance": "DEGRADED"
+    },
+    {
+      "bias_mps": 1.0,
+      "mpjpe": 156.4219119683866,
+      "velocity_mae": 2.664504085492504,
+      "radial_residual": 0.776898552249642,
+      "mean_confidence": 0.32428760027646414,
+      "ekf_tolerance": "FAILED"
+    },
+    {
+      "bias_mps": -1.0,
+      "mpjpe": 134.1282024843515,
+      "velocity_mae": 2.4355587650263195,
+      "radial_residual": 0.566437779945848,
+      "mean_confidence": 0.3520914215155852,
+      "ekf_tolerance": "FAILED"
+    }
+  ],
+  "max_tolerated_bias_mps": 0.25,
+  "confidence_suppression_active": true,
+  "finding": "Dynamic confidence c_t discounts biased radar velocity via exp(-|e_r|/0.5), preventing catastrophic position drift."
+}

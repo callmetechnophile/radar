@@ -1,0 +1,69 @@
+{
+  "results": [
+    {
+      "density_pct": 100.0,
+      "mpjpe": 106.57276832082019,
+      "root_mae": 49.94496411866976,
+      "velocity_mae": 2.9157016417410233,
+      "radar_consistency": 0.14955101021663583,
+      "uncertainty": 51.63614934324583,
+      "tracking_stability": "STABLE"
+    },
+    {
+      "density_pct": 75.0,
+      "mpjpe": 118.89203395552627,
+      "root_mae": 56.622463653805895,
+      "velocity_mae": 2.933845736095291,
+      "radar_consistency": 0.15304657568277158,
+      "uncertainty": 56.27906486565055,
+      "tracking_stability": "STABLE"
+    },
+    {
+      "density_pct": 50.0,
+      "mpjpe": 137.72518357127484,
+      "root_mae": 66.67055472654604,
+      "velocity_mae": 2.8993459119141662,
+      "radar_consistency": 0.16428905563932467,
+      "uncertainty": 56.50649802420569,
+      "tracking_stability": "STABLE"
+    },
+    {
+      "density_pct": 25.0,
+      "mpjpe": 175.3877544500031,
+      "root_mae": 90.6613081094691,
+      "velocity_mae": 2.4170571946347605,
+      "radar_consistency": 0.11080583839650686,
+      "uncertainty": 79.24864955197636,
+      "tracking_stability": "STABLE"
+    },
+    {
+      "density_pct": 10.0,
+      "mpjpe": 274.6816520509177,
+      "root_mae": 118.27948204091535,
+      "velocity_mae": 1.6123774198067558,
+      "radar_consistency": 0.041122520972745415,
+      "uncertainty": 255.86730890583254,
+      "tracking_stability": "STABLE"
+    },
+    {
+      "density_pct": 5.0,
+      "mpjpe": 551.1782952673364,
+      "root_mae": 247.54797275797083,
+      "velocity_mae": 1.8632791710617203,
+      "radar_consistency": 0.03330862143864142,
+      "uncertainty": 563.1262600143524,
+      "tracking_stability": "DEGRADED"
+    },
+    {
+      "density_pct": 1.0,
+      "mpjpe": 577.2895571074085,
+      "root_mae": 262.207732575366,
+      "velocity_mae": 0.9912635614096785,
+      "radar_consistency": 0.030791424238983837,
+      "uncertainty": 595.3979144045393,
+      "tracking_stability": "UNSTABLE"
+    }
+  ],
+  "min_acceptable_density_pct": 10.0,
+  "rationale": "Tracking divergence occurs when density falls below 10% (equivalent to >10-frame gaps)."
+}

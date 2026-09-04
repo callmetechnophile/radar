@@ -1,0 +1,52 @@
+{
+  "results": [
+    {
+      "condition": "Clean",
+      "bone_violation_pct": 0.0,
+      "joint_violation_pct": 9.598214285714286,
+      "velocity_violation_pct": 87.5366568914956,
+      "acc_violation_pct": 99.24242424242425,
+      "role": "STABILIZES_SOLUTION"
+    },
+    {
+      "condition": "Radar Sparse (10%)",
+      "bone_violation_pct": 0.0,
+      "joint_violation_pct": 46.651785714285715,
+      "velocity_violation_pct": 95.01466275659824,
+      "acc_violation_pct": 100.0,
+      "role": "STABILIZES_SOLUTION"
+    },
+    {
+      "condition": "Radar Noisy (50%)",
+      "bone_violation_pct": 0.0,
+      "joint_violation_pct": 56.02678571428571,
+      "velocity_violation_pct": 99.8533724340176,
+      "acc_violation_pct": 100.0,
+      "role": "STABILIZES_SOLUTION"
+    },
+    {
+      "condition": "LiDAR Dropout",
+      "bone_violation_pct": 0.0,
+      "joint_violation_pct": 43.973214285714285,
+      "velocity_violation_pct": 96.04105571847508,
+      "acc_violation_pct": 100.0,
+      "role": "STABILIZES_SOLUTION"
+    },
+    {
+      "condition": "Long Gap (16f)",
+      "bone_violation_pct": 0.0,
+      "joint_violation_pct": 29.6875,
+      "velocity_violation_pct": 74.04692082111437,
+      "acc_violation_pct": 90.6060606060606,
+      "role": "STABILIZES_SOLUTION"
+    },
+    {
+      "condition": "High Accel (Jumping)",
+      "bone_violation_pct": 0.0,
+      "joint_violation_pct": 7.366071428571429,
+      "velocity_violation_pct": 77.41935483870968,
+      "acc_violation_pct": 95.75757575757575,
+      "role": "STABILIZES_SOLUTION"
+    }
+  ]
+}

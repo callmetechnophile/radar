@@ -1,0 +1,136 @@
+{
+  "gaps": [
+    {
+      "gap_frames": 0,
+      "mpjpe": 41.451910987244766,
+      "pa_mpjpe": 37.06390288995086,
+      "root_mae": 23.871267950226848,
+      "velocity_mae": 1.400506112141844,
+      "acc_mae": 67.96926066730103,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 37.47619047619048,
+      "uncertainty": 14.421788346835122,
+      "regime": "GREEN"
+    },
+    {
+      "gap_frames": 1,
+      "mpjpe": 41.844303377726966,
+      "pa_mpjpe": 37.37364346295203,
+      "root_mae": 24.03085990635673,
+      "velocity_mae": 1.4064381030308786,
+      "acc_mae": 68.42819153436386,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 37.2797619047619,
+      "uncertainty": 14.462727339759939,
+      "regime": "GREEN"
+    },
+    {
+      "gap_frames": 2,
+      "mpjpe": 42.5981366622087,
+      "pa_mpjpe": 37.77777910371163,
+      "root_mae": 24.175140669395578,
+      "velocity_mae": 1.418063686332079,
+      "acc_mae": 68.48272688843814,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 37.07738095238094,
+      "uncertainty": 14.694174557691698,
+      "regime": "GREEN"
+    },
+    {
+      "gap_frames": 4,
+      "mpjpe": 45.79465014807309,
+      "pa_mpjpe": 39.462227830175934,
+      "root_mae": 24.74406897672765,
+      "velocity_mae": 1.455978413224146,
+      "acc_mae": 69.27087385747627,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 36.85714285714285,
+      "uncertainty": 15.688509355427975,
+      "regime": "GREEN"
+    },
+    {
+      "gap_frames": 8,
+      "mpjpe": 58.08053215802394,
+      "pa_mpjpe": 45.812460912680855,
+      "root_mae": 27.368071794378203,
+      "velocity_mae": 1.502583047855661,
+      "acc_mae": 69.2943565597332,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 37.06547619047619,
+      "uncertainty": 20.65309270500425,
+      "regime": "GREEN"
+    },
+    {
+      "gap_frames": 12,
+      "mpjpe": 76.41934510270613,
+      "pa_mpjpe": 54.86098466313774,
+      "root_mae": 32.5405509342255,
+      "velocity_mae": 1.5287634877834921,
+      "acc_mae": 68.96552033541502,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 37.36309523809524,
+      "uncertainty": 31.740625487405115,
+      "regime": "YELLOW"
+    },
+    {
+      "gap_frames": 16,
+      "mpjpe": 100.2328847696035,
+      "pa_mpjpe": 66.20757949195084,
+      "root_mae": 41.43556471974937,
+      "velocity_mae": 1.5428696458388729,
+      "acc_mae": 68.04013735654833,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 37.6904761904762,
+      "uncertainty": 52.04695450937071,
+      "regime": "YELLOW"
+    },
+    {
+      "gap_frames": 24,
+      "mpjpe": 162.04336923708195,
+      "pa_mpjpe": 92.26202226884678,
+      "root_mae": 71.3940239682525,
+      "velocity_mae": 1.5575861972616116,
+      "acc_mae": 65.77102696070614,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 37.982142857142854,
+      "uncertainty": 131.46435581656192,
+      "regime": "YELLOW"
+    },
+    {
+      "gap_frames": 32,
+      "mpjpe": 243.91762748149893,
+      "pa_mpjpe": 121.87136868581138,
+      "root_mae": 117.31625251156993,
+      "velocity_mae": 1.5654452130048317,
+      "acc_mae": 63.249510028588695,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 38.904761904761905,
+      "uncertainty": 276.47961412727756,
+      "regime": "RED"
+    },
+    {
+      "gap_frames": 48,
+      "mpjpe": 471.5424258105459,
+      "pa_mpjpe": 187.15646525283725,
+      "root_mae": 265.0019775909344,
+      "velocity_mae": 1.624766031229663,
+      "acc_mae": 59.68075853248258,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 40.49404761904761,
+      "uncertainty": 775.6727798076613,
+      "regime": "RED"
+    },
+    {
+      "gap_frames": 64,
+      "mpjpe": 789.7211872585941,
+      "pa_mpjpe": 256.5511014900514,
+      "root_mae": 500.80163822469234,
+      "velocity_mae": 1.705937095172496,
+      "acc_mae": 57.01964630842118,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 40.470238095238095,
+      "uncertainty": 1547.909637568006,
+      "regime": "RED"
+    }
+  ]
+}

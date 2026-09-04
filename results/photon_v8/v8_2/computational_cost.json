@@ -1,0 +1,11 @@
+{
+  "state_dimension": 132,
+  "matrix_sizes": "F: 132x132, Q: 132x132, P: 132x132, H: 66x132",
+  "flops_per_frame": "~4.2 MFLOPs",
+  "memory_footprint_kb": 136.0,
+  "ekf_update_cost_ms": 1.25,
+  "pocs_projection_cost_ms": 2.45,
+  "average_latency_ms": 9.406883374977042,
+  "worst_case_latency_ms": 13.63998089371671,
+  "platform": "Host CPU (x86_64, Windows)"
+}

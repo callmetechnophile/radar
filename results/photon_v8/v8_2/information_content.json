@@ -1,0 +1,47 @@
+{
+  "candidate_features": [
+    {
+      "feature": "s_math (Analytical State [p, v])",
+      "correlation_with_residual": 0.82,
+      "status": "ESSENTIAL"
+    },
+    {
+      "feature": "unc_tr (Kalman Uncertainty Trace)",
+      "correlation_with_residual": 0.89,
+      "status": "ESSENTIAL"
+    },
+    {
+      "feature": "c_t (Observation Confidence)",
+      "correlation_with_residual": -0.85,
+      "status": "ESSENTIAL"
+    },
+    {
+      "feature": "e_radial (Radial Velocity Innovation)",
+      "correlation_with_residual": 0.74,
+      "status": "ESSENTIAL"
+    },
+    {
+      "feature": "obs_mask (Binary Missing Mask)",
+      "correlation_with_residual": -0.81,
+      "status": "ESSENTIAL"
+    },
+    {
+      "feature": "Raw Radar Point Clouds",
+      "correlation_with_residual": 0.28,
+      "status": "REDUNDANT (Already digested by EKF)"
+    },
+    {
+      "feature": "Analytical Jerk",
+      "correlation_with_residual": 0.35,
+      "status": "REDUNDANT"
+    }
+  ],
+  "minimal_sufficient_feature_set": [
+    "s_math (132-D)",
+    "unc_tr (1-D)",
+    "c_t (1-D)",
+    "e_radial (1-D)",
+    "obs_mask (1-D)"
+  ],
+  "total_feature_dim": 136
+}

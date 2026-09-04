@@ -1,0 +1,429 @@
+{
+  "best_sequence": {
+    "seq_id": 2,
+    "action": "Turning",
+    "mpjpe": 36.15159089706129,
+    "root_mae": 22.614555009773586,
+    "velocity_mae": 1.183909405392546,
+    "acc_mae": 56.223787306354026
+  },
+  "median_sequence": {
+    "seq_id": 4,
+    "action": "Rising",
+    "mpjpe": 48.29442603797063,
+    "root_mae": 25.064864927355256,
+    "velocity_mae": 1.4125760652004187,
+    "acc_mae": 66.6948074323745
+  },
+  "worst_sequence": {
+    "seq_id": 32,
+    "action": "Running",
+    "mpjpe": 75.43669201283961,
+    "root_mae": 25.840055210782847,
+    "velocity_mae": 1.6971135158262733,
+    "acc_mae": 77.04751891681867
+  },
+  "failure_diagnosis_worst": "Worst sequence fails due to extreme non-linear acceleration in Running, where constant-velocity assumption exhibits transient lag during abrupt ballistic transitions.",
+  "all_sequences": [
+    {
+      "seq_id": 2,
+      "action": "Turning",
+      "mpjpe": 36.15159089706129,
+      "root_mae": 22.614555009773586,
+      "velocity_mae": 1.183909405392546,
+      "acc_mae": 56.223787306354026
+    },
+    {
+      "seq_id": 34,
+      "action": "Fast directional changes",
+      "mpjpe": 36.540083912285944,
+      "root_mae": 23.96090405150275,
+      "velocity_mae": 1.3293522285161907,
+      "acc_mae": 65.89614812737811
+    },
+    {
+      "seq_id": 37,
+      "action": "Standing",
+      "mpjpe": 36.6812553089882,
+      "root_mae": 25.429381947172317,
+      "velocity_mae": 1.2314305690523166,
+      "acc_mae": 60.7537465002985
+    },
+    {
+      "seq_id": 28,
+      "action": "Standing",
+      "mpjpe": 36.735166487962836,
+      "root_mae": 26.871671386723044,
+      "velocity_mae": 1.241986374368786,
+      "acc_mae": 59.812809005761025
+    },
+    {
+      "seq_id": 29,
+      "action": "Turning",
+      "mpjpe": 36.97256751143407,
+      "root_mae": 24.473226692502028,
+      "velocity_mae": 1.325742656395552,
+      "acc_mae": 65.98170769433368
+    },
+    {
+      "seq_id": 46,
+      "action": "Standing",
+      "mpjpe": 37.37420267007667,
+      "root_mae": 22.750629489212983,
+      "velocity_mae": 1.2621819616663916,
+      "acc_mae": 59.711873115039744
+    },
+    {
+      "seq_id": 20,
+      "action": "Turning",
+      "mpjpe": 37.80168748983341,
+      "root_mae": 23.330666528288262,
+      "velocity_mae": 1.3080675526873184,
+      "acc_mae": 62.02407574512796
+    },
+    {
+      "seq_id": 16,
+      "action": "Fast directional changes",
+      "mpjpe": 38.46281625908588,
+      "root_mae": 25.77654528546226,
+      "velocity_mae": 1.3576576464308903,
+      "acc_mae": 67.90477288708847
+    },
+    {
+      "seq_id": 11,
+      "action": "Turning",
+      "mpjpe": 38.58697051083937,
+      "root_mae": 24.36682053404425,
+      "velocity_mae": 1.3504803599301585,
+      "acc_mae": 65.95951853488282
+    },
+    {
+      "seq_id": 1,
+      "action": "Standing",
+      "mpjpe": 38.83973891267022,
+      "root_mae": 22.608554690343297,
+      "velocity_mae": 1.335293743353626,
+      "acc_mae": 63.183443758736814
+    },
+    {
+      "seq_id": 38,
+      "action": "Turning",
+      "mpjpe": 39.2610329879652,
+      "root_mae": 25.894600033124007,
+      "velocity_mae": 1.4222420310713204,
+      "acc_mae": 69.3390394162792
+    },
+    {
+      "seq_id": 7,
+      "action": "Fast directional changes",
+      "mpjpe": 39.482664843452056,
+      "root_mae": 20.183873562921033,
+      "velocity_mae": 1.4918942849168855,
+      "acc_mae": 74.80485431390052
+    },
+    {
+      "seq_id": 19,
+      "action": "Standing",
+      "mpjpe": 39.51865714304192,
+      "root_mae": 26.46933418053095,
+      "velocity_mae": 1.3803627438392412,
+      "acc_mae": 65.910445153926
+    },
+    {
+      "seq_id": 47,
+      "action": "Turning",
+      "mpjpe": 39.96916153858771,
+      "root_mae": 25.477183003507896,
+      "velocity_mae": 1.427979678639243,
+      "acc_mae": 69.34945404501114
+    },
+    {
+      "seq_id": 10,
+      "action": "Standing",
+      "mpjpe": 40.95638662032916,
+      "root_mae": 27.492341033597015,
+      "velocity_mae": 1.4466776641631611,
+      "acc_mae": 70.625972357001
+    },
+    {
+      "seq_id": 18,
+      "action": "Normal walking",
+      "mpjpe": 41.28476308402151,
+      "root_mae": 23.50216356086042,
+      "velocity_mae": 1.354706314957198,
+      "acc_mae": 63.29785722594356
+    },
+    {
+      "seq_id": 27,
+      "action": "Normal walking",
+      "mpjpe": 41.28578057420486,
+      "root_mae": 24.36754370980846,
+      "velocity_mae": 1.2860639314614335,
+      "acc_mae": 60.99481938026342
+    },
+    {
+      "seq_id": 45,
+      "action": "Normal walking",
+      "mpjpe": 41.75801814724173,
+      "root_mae": 25.136024572657213,
+      "velocity_mae": 1.3144711700892069,
+      "acc_mae": 61.70286611407457
+    },
+    {
+      "seq_id": 43,
+      "action": "Fast directional changes",
+      "mpjpe": 41.80396064092712,
+      "root_mae": 26.80097043061419,
+      "velocity_mae": 1.4636637589856731,
+      "acc_mae": 71.12701659300768
+    },
+    {
+      "seq_id": 36,
+      "action": "Normal walking",
+      "mpjpe": 42.19259806152414,
+      "root_mae": 24.368579819460027,
+      "velocity_mae": 1.417637091062051,
+      "acc_mae": 69.8227428028471
+    },
+    {
+      "seq_id": 25,
+      "action": "Fast directional changes",
+      "mpjpe": 42.29788743421914,
+      "root_mae": 24.00489863171737,
+      "velocity_mae": 1.5055985604686755,
+      "acc_mae": 75.52346419628928
+    },
+    {
+      "seq_id": 22,
+      "action": "Rising",
+      "mpjpe": 44.645621157901424,
+      "root_mae": 23.003658456777426,
+      "velocity_mae": 1.2607134495936279,
+      "acc_mae": 59.028450088918376
+    },
+    {
+      "seq_id": 9,
+      "action": "Normal walking",
+      "mpjpe": 44.993279054307386,
+      "root_mae": 23.020584844826114,
+      "velocity_mae": 1.4688697359161953,
+      "acc_mae": 73.23288223844985
+    },
+    {
+      "seq_id": 49,
+      "action": "Rising",
+      "mpjpe": 45.814803359653986,
+      "root_mae": 21.40174860782594,
+      "velocity_mae": 1.371558786039859,
+      "acc_mae": 67.70635653799653
+    },
+    {
+      "seq_id": 40,
+      "action": "Rising",
+      "mpjpe": 46.64399576758222,
+      "root_mae": 23.178446696196175,
+      "velocity_mae": 1.3166855334652792,
+      "acc_mae": 61.53911247942998
+    },
+    {
+      "seq_id": 4,
+      "action": "Rising",
+      "mpjpe": 48.29442603797063,
+      "root_mae": 25.064864927355256,
+      "velocity_mae": 1.4125760652004187,
+      "acc_mae": 66.6948074323745
+    },
+    {
+      "seq_id": 0,
+      "action": "Normal walking",
+      "mpjpe": 48.71859750813221,
+      "root_mae": 27.066485036747917,
+      "velocity_mae": 1.6937565294232584,
+      "acc_mae": 81.45543004278738
+    },
+    {
+      "seq_id": 13,
+      "action": "Rising",
+      "mpjpe": 49.03284841029903,
+      "root_mae": 29.13858763024862,
+      "velocity_mae": 1.3900653888532246,
+      "acc_mae": 66.11989996201768
+    },
+    {
+      "seq_id": 31,
+      "action": "Rising",
+      "mpjpe": 51.24342534653958,
+      "root_mae": 23.154877509452575,
+      "velocity_mae": 1.4727739965923314,
+      "acc_mae": 70.79805876881396
+    },
+    {
+      "seq_id": 26,
+      "action": "Other high-dynamic motions",
+      "mpjpe": 51.336992969015384,
+      "root_mae": 27.776561332301387,
+      "velocity_mae": 2.0179890255040176,
+      "acc_mae": 99.99047674447952
+    },
+    {
+      "seq_id": 8,
+      "action": "Other high-dynamic motions",
+      "mpjpe": 51.696615157924185,
+      "root_mae": 27.566592176177405,
+      "velocity_mae": 2.028450530071271,
+      "acc_mae": 101.28619526538122
+    },
+    {
+      "seq_id": 44,
+      "action": "Other high-dynamic motions",
+      "mpjpe": 52.54583619665984,
+      "root_mae": 25.888451957178496,
+      "velocity_mae": 2.090849976997032,
+      "acc_mae": 104.51370104097809
+    },
+    {
+      "seq_id": 35,
+      "action": "Other high-dynamic motions",
+      "mpjpe": 54.06605757999373,
+      "root_mae": 27.689767378854917,
+      "velocity_mae": 2.1177362121231313,
+      "acc_mae": 107.64646985655877
+    },
+    {
+      "seq_id": 17,
+      "action": "Other high-dynamic motions",
+      "mpjpe": 55.667503280544366,
+      "root_mae": 27.579294664722497,
+      "velocity_mae": 2.229256958619026,
+      "acc_mae": 110.6057575942553
+    },
+    {
+      "seq_id": 48,
+      "action": "Sitting",
+      "mpjpe": 62.40886938188735,
+      "root_mae": 24.24314346650812,
+      "velocity_mae": 1.3940079592960997,
+      "acc_mae": 67.51957633407616
+    },
+    {
+      "seq_id": 12,
+      "action": "Sitting",
+      "mpjpe": 63.59211509865498,
+      "root_mae": 23.06397642128989,
+      "velocity_mae": 1.3713341494519797,
+      "acc_mae": 65.81139162419554
+    },
+    {
+      "seq_id": 21,
+      "action": "Sitting",
+      "mpjpe": 66.46956273338064,
+      "root_mae": 26.652842612369323,
+      "velocity_mae": 1.4224714478476241,
+      "acc_mae": 68.85722541534007
+    },
+    {
+      "seq_id": 42,
+      "action": "Jumping",
+      "mpjpe": 66.72173798118519,
+      "root_mae": 22.526063628927602,
+      "velocity_mae": 1.749764354390148,
+      "acc_mae": 85.1712615717387
+    },
+    {
+      "seq_id": 6,
+      "action": "Jumping",
+      "mpjpe": 66.90382898444796,
+      "root_mae": 23.252960156616936,
+      "velocity_mae": 1.707173966049954,
+      "acc_mae": 83.16035645207569
+    },
+    {
+      "seq_id": 3,
+      "action": "Sitting",
+      "mpjpe": 67.09414805764915,
+      "root_mae": 22.847219509647765,
+      "velocity_mae": 1.4211267703381125,
+      "acc_mae": 67.85915991436711
+    },
+    {
+      "seq_id": 15,
+      "action": "Jumping",
+      "mpjpe": 67.42369926375001,
+      "root_mae": 19.639230203081002,
+      "velocity_mae": 1.7168182992925103,
+      "acc_mae": 81.05297038501632
+    },
+    {
+      "seq_id": 30,
+      "action": "Sitting",
+      "mpjpe": 67.65307102475073,
+      "root_mae": 22.893454684997295,
+      "velocity_mae": 1.5580967473462737,
+      "acc_mae": 75.67329101190991
+    },
+    {
+      "seq_id": 39,
+      "action": "Sitting",
+      "mpjpe": 68.71556623817177,
+      "root_mae": 24.78953377051245,
+      "velocity_mae": 1.6231390704821684,
+      "acc_mae": 76.27864463710243
+    },
+    {
+      "seq_id": 24,
+      "action": "Jumping",
+      "mpjpe": 69.14369570003603,
+      "root_mae": 25.92542040583511,
+      "velocity_mae": 1.845078966126564,
+      "acc_mae": 89.57929952706353
+    },
+    {
+      "seq_id": 33,
+      "action": "Jumping",
+      "mpjpe": 70.44618270933397,
+      "root_mae": 23.248611402784377,
+      "velocity_mae": 1.877239668131197,
+      "acc_mae": 91.2371119050013
+    },
+    {
+      "seq_id": 14,
+      "action": "Running",
+      "mpjpe": 70.85309301246951,
+      "root_mae": 21.244327032462795,
+      "velocity_mae": 1.6577316711219385,
+      "acc_mae": 72.3190724188731
+    },
+    {
+      "seq_id": 41,
+      "action": "Running",
+      "mpjpe": 71.03187299862617,
+      "root_mae": 24.57518766275201,
+      "velocity_mae": 1.7475579222101518,
+      "acc_mae": 80.95961650377046
+    },
+    {
+      "seq_id": 23,
+      "action": "Running",
+      "mpjpe": 72.85543801227331,
+      "root_mae": 27.790677489911886,
+      "velocity_mae": 1.8154918079502076,
+      "acc_mae": 82.1937774403858
+    },
+    {
+      "seq_id": 5,
+      "action": "Running",
+      "mpjpe": 72.9989223692117,
+      "root_mae": 28.700547550468187,
+      "velocity_mae": 1.752202665535909,
+      "acc_mae": 78.41346713930065
+    },
+    {
+      "seq_id": 32,
+      "action": "Running",
+      "mpjpe": 75.43669201283961,
+      "root_mae": 25.840055210782847,
+      "velocity_mae": 1.6971135158262733,
+      "acc_mae": 77.04751891681867
+    }
+  ]
+}

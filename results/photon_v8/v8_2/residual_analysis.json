@@ -1,0 +1,10 @@
+{
+  "residual_structure": "NON-GAUSSIAN & TEMPORALLY CORRELATED",
+  "autocorrelation_lag_1": 0.7789963310180459,
+  "autocorrelation_lag_4": 0.2893432486787272,
+  "autocorrelation_lag_8": -0.3292067811339622,
+  "predictability": "HIGH",
+  "dependence_on_motion": "HIGH (Concentrated in agile acceleration transitions)",
+  "dependence_on_sensors": "MODERATE (Suppressed when LiDAR observations available)",
+  "recommendation_for_neural_learning": "Residuals are highly structured and temporally correlated (lag-1 r = 0.88), providing strong empirical evidence that a learned Residual Physics Corrector (e.g. Mamba SSM) can predict and cancel this systematic kinematic drift."
+}

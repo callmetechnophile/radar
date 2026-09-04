@@ -1,0 +1,52 @@
+{
+  "ranked_sensitivity": [
+    {
+      "variable": "Temporal Gap Length",
+      "sensitivity_rank": 1,
+      "failure_threshold": "> 24 frames (800 ms)",
+      "confidence": "HIGH"
+    },
+    {
+      "variable": "Radar Observation Sparsity",
+      "sensitivity_rank": 2,
+      "failure_threshold": "< 10% density",
+      "confidence": "HIGH"
+    },
+    {
+      "variable": "Motion Acceleration (Jumping/Athletic)",
+      "sensitivity_rank": 3,
+      "failure_threshold": "> 6.5 m/s^2",
+      "confidence": "HIGH"
+    },
+    {
+      "variable": "LiDAR Availability Dropout",
+      "sensitivity_rank": 4,
+      "failure_threshold": "None (graceful degradation)",
+      "confidence": "HIGH"
+    },
+    {
+      "variable": "Radial Velocity Bias",
+      "sensitivity_rank": 5,
+      "failure_threshold": "> 0.50 m/s",
+      "confidence": "HIGH"
+    },
+    {
+      "variable": "Radar Measurement Noise",
+      "sensitivity_rank": 6,
+      "failure_threshold": "> 0.25 m",
+      "confidence": "HIGH"
+    },
+    {
+      "variable": "Sensor Translation Misalignment",
+      "sensitivity_rank": 7,
+      "failure_threshold": "> 25 mm",
+      "confidence": "MEDIUM"
+    },
+    {
+      "variable": "Timestamp Synchronization Jitter",
+      "sensitivity_rank": 8,
+      "failure_threshold": "> 20 ms",
+      "confidence": "HIGH"
+    }
+  ]
+}

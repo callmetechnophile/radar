@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "regime": "0% (Clean)",
+      "sigma_m": 0.0,
+      "mpjpe": 14.195929450323845,
+      "velocity_mae": 0.13401392651407046,
+      "radar_consistency": 0.0775795594075445,
+      "uncertainty": 38.88251907122162,
+      "degradation": "GRACEFUL"
+    },
+    {
+      "regime": "5% (Low)",
+      "sigma_m": 0.025,
+      "mpjpe": 46.68642088173535,
+      "velocity_mae": 1.1459581772725833,
+      "radar_consistency": 0.09240234295403467,
+      "uncertainty": 41.810891762802356,
+      "degradation": "GRACEFUL"
+    },
+    {
+      "regime": "10% (Nominal)",
+      "sigma_m": 0.05,
+      "mpjpe": 111.65758577883487,
+      "velocity_mae": 3.005278080719958,
+      "radar_consistency": 0.1482704274546454,
+      "uncertainty": 52.36230325671596,
+      "degradation": "GRACEFUL"
+    },
+    {
+      "regime": "20% (Elevated)",
+      "sigma_m": 0.1,
+      "mpjpe": 226.67425222799275,
+      "velocity_mae": 6.305263818265214,
+      "radar_consistency": 0.3379661067999903,
+      "uncertainty": 78.81964361904554,
+      "degradation": "GRACEFUL"
+    },
+    {
+      "regime": "30% (Severe)",
+      "sigma_m": 0.15,
+      "mpjpe": 296.62919065928924,
+      "velocity_mae": 8.117798144444532,
+      "radar_consistency": 0.5246576013756028,
+      "uncertainty": 92.10996251198938,
+      "degradation": "GRACEFUL"
+    },
+    {
+      "regime": "50% (Hostile)",
+      "sigma_m": 0.25,
+      "mpjpe": 383.54832816928007,
+      "velocity_mae": 10.225803387289115,
+      "radar_consistency": 0.9143380320309802,
+      "uncertainty": 108.13922455122675,
+      "degradation": "SEVERE"
+    },
+    {
+      "regime": "100% (Extreme)",
+      "sigma_m": 0.5,
+      "mpjpe": 543.0559056482466,
+      "velocity_mae": 14.288416110672026,
+      "radar_consistency": 2.285321886312688,
+      "uncertainty": 142.7790382083158,
+      "degradation": "SEVERE"
+    }
+  ]
+}

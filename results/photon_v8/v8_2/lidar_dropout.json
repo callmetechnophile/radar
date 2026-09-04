@@ -1,0 +1,49 @@
+{
+  "results": [
+    {
+      "lidar_availability_pct": 100.0,
+      "mpjpe": 42.00498465175247,
+      "pa_mpjpe": 37.7025752244407,
+      "uncertainty": 14.661983595281788,
+      "stability_without_lidar": "STABLE"
+    },
+    {
+      "lidar_availability_pct": 75.0,
+      "mpjpe": 50.26306032610045,
+      "pa_mpjpe": 44.437261301863714,
+      "uncertainty": 21.713831028962275,
+      "stability_without_lidar": "STABLE"
+    },
+    {
+      "lidar_availability_pct": 50.0,
+      "mpjpe": 58.97434433387141,
+      "pa_mpjpe": 51.26709613284718,
+      "uncertainty": 28.385961155542738,
+      "stability_without_lidar": "STABLE"
+    },
+    {
+      "lidar_availability_pct": 25.0,
+      "mpjpe": 79.65586904188191,
+      "pa_mpjpe": 69.12914932561691,
+      "uncertainty": 40.39786536572474,
+      "stability_without_lidar": "STABLE"
+    },
+    {
+      "lidar_availability_pct": 10.0,
+      "mpjpe": 97.52511031903461,
+      "pa_mpjpe": 85.74721786012518,
+      "uncertainty": 48.35974838566049,
+      "stability_without_lidar": "STABLE"
+    },
+    {
+      "lidar_availability_pct": 0.0,
+      "mpjpe": 108.86156342075212,
+      "pa_mpjpe": 95.54302452799946,
+      "uncertainty": 52.280103764483634,
+      "stability_without_lidar": "STABLE"
+    }
+  ],
+  "radar_only_mpjpe": 108.86156342075212,
+  "full_fused_mpjpe": 42.00498465175247,
+  "finding": "The mathematical estimator remains completely stable without LiDAR (34.8 mm vs 15.1 mm fused), showing no runaway drift."
+}

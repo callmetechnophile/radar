@@ -1,0 +1,36 @@
+{
+  "GREEN": {
+    "definition": "Mathematical estimator highly reliable; physically valid and high precision",
+    "criteria": {
+      "max_gap_frames": 8,
+      "max_duration_ms": 266,
+      "mpjpe_bound_mm": "< 35.0",
+      "max_acceleration_mps2": 3.2,
+      "min_radar_density_pct": 25.0,
+      "max_timing_jitter_ms": 10.0,
+      "bone_violations": "0.0%",
+      "joint_violations": "< 12.0%"
+    }
+  },
+  "YELLOW": {
+    "definition": "Performance degraded but stable and usable; bone lengths preserved",
+    "criteria": {
+      "gap_frames_range": "9 to 24 frames",
+      "duration_ms_range": "300 to 800 ms",
+      "mpjpe_bound_mm": "35.0 to 90.0",
+      "acceleration_mps2": "3.2 to 6.5",
+      "radar_density_pct": "10.0% to 25.0%",
+      "bone_violations": "0.0%",
+      "joint_violations": "< 20.0%"
+    }
+  },
+  "RED": {
+    "definition": "Mathematical estimator unreliable; ballistic acceleration causes drift; learned residual required",
+    "criteria": {
+      "gap_frames": "> 24 frames (> 800 ms)",
+      "mpjpe_mm": "> 90.0",
+      "acceleration_mps2": "> 6.5 (extreme jumping / reversal)",
+      "radar_density_pct": "< 10.0%"
+    }
+  }
+}

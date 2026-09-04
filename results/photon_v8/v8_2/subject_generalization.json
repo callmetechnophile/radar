@@ -1,0 +1,70 @@
+{
+  "profiles": {
+    "seen_subject_canonical": {
+      "is_seen": true,
+      "mpjpe": 42.40575175390029,
+      "pa_mpjpe": 37.90104319684362,
+      "acc_mae": 68.18511813560453,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 36.75595238095237,
+      "radar_consistency": 0.3937667836527501
+    },
+    "seen_subject_slight_variation": {
+      "is_seen": true,
+      "mpjpe": 43.835619233231746,
+      "pa_mpjpe": 38.54746321324856,
+      "acc_mae": 68.40225791402125,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 36.35416666666666,
+      "radar_consistency": 0.39567969508828965
+    },
+    "unseen_subject_tall": {
+      "is_seen": false,
+      "mpjpe": 73.91527483919391,
+      "pa_mpjpe": 46.471796737836584,
+      "acc_mae": 61.029932606430506,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 28.06547619047619,
+      "radar_consistency": 0.43192075241260236
+    },
+    "unseen_subject_short": {
+      "is_seen": false,
+      "mpjpe": 77.06329421865318,
+      "pa_mpjpe": 56.00922273036659,
+      "acc_mae": 99.66615458142655,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 57.87202380952381,
+      "radar_consistency": 0.4318104751279222
+    },
+    "unseen_subject_long_legs": {
+      "is_seen": false,
+      "mpjpe": 82.37211861979853,
+      "pa_mpjpe": 65.21078124166957,
+      "acc_mae": 82.02534668330107,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 37.351190476190474,
+      "radar_consistency": 0.4406057704643717
+    },
+    "unseen_subject_long_torso": {
+      "is_seen": false,
+      "mpjpe": 68.39941852882014,
+      "pa_mpjpe": 61.286489352606516,
+      "acc_mae": 64.73039956676277,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 38.70535714285715,
+      "radar_consistency": 0.4243629492130323
+    },
+    "unseen_subject_asymmetric": {
+      "is_seen": false,
+      "mpjpe": 54.412391165242234,
+      "pa_mpjpe": 41.6821894707704,
+      "acc_mae": 66.57199142288702,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 34.49404761904761,
+      "radar_consistency": 0.40889452921493974
+    }
+  },
+  "seen_mean_mpjpe": 43.120685493566015,
+  "unseen_mean_mpjpe": 71.23249947434161,
+  "generalization_delta_mm": 28.111813980775594
+}

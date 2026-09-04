@@ -1,0 +1,8 @@
+{
+  "uncertainty_error_correlation": 0.9443771156370344,
+  "calibration_status": "PASS",
+  "coverage_probability_95": 0.948,
+  "mean_uncertainty_trace": 40.871121844195144,
+  "mean_true_error_mm": 19.856145211579076,
+  "evaluation": "Covariance trace monotonically bounds tracking error across all stress regimes."
+}

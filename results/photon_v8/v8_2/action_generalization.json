@@ -1,0 +1,94 @@
+{
+  "actions": [
+    {
+      "action": "Normal walking",
+      "mpjpe": 43.03638249637882,
+      "pa_mpjpe": 38.636781021980205,
+      "root_mae": 24.165691941759533,
+      "velocity_mae": 1.4218193312044953,
+      "acc_mae": 68.69924148053373,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 38.45238095238095
+    },
+    {
+      "action": "Standing",
+      "mpjpe": 39.303132279760895,
+      "pa_mpjpe": 35.12590346660845,
+      "root_mae": 23.842552998029685,
+      "velocity_mae": 1.3453509939720338,
+      "acc_mae": 64.67597390181894,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 31.29464285714285
+    },
+    {
+      "action": "Turning",
+      "mpjpe": 39.54143277103098,
+      "pa_mpjpe": 35.2938917892529,
+      "root_mae": 24.44082699689629,
+      "velocity_mae": 1.3708679090270095,
+      "acc_mae": 66.47494043215406,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 31.38392857142857
+    },
+    {
+      "action": "Sitting",
+      "mpjpe": 67.00637815301158,
+      "pa_mpjpe": 59.74673105379383,
+      "root_mae": 24.218157264647253,
+      "velocity_mae": 1.526401951059783,
+      "acc_mae": 73.43139797558916,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 43.1845238095238
+    },
+    {
+      "action": "Rising",
+      "mpjpe": 49.723777588047625,
+      "pa_mpjpe": 44.90816660619973,
+      "root_mae": 24.204898527656532,
+      "velocity_mae": 1.4557117550267573,
+      "acc_mae": 69.93515950907111,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 36.279761904761905
+    },
+    {
+      "action": "Running",
+      "mpjpe": 74.30469445234847,
+      "pa_mpjpe": 70.77072025988576,
+      "root_mae": 25.143528485758388,
+      "velocity_mae": 1.7704826629607098,
+      "acc_mae": 79.35445711125686,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 47.67857142857142
+    },
+    {
+      "action": "Jumping",
+      "mpjpe": 68.318857739922,
+      "pa_mpjpe": 62.25892687926885,
+      "root_mae": 24.677933959781168,
+      "velocity_mae": 1.7657312066839908,
+      "acc_mae": 85.95727026109958,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 32.58928571428571
+    },
+    {
+      "action": "Fast directional changes",
+      "mpjpe": 41.21846539640141,
+      "pa_mpjpe": 36.270778146517905,
+      "root_mae": 26.26465201447695,
+      "velocity_mae": 1.4665686784714451,
+      "acc_mae": 71.66297934226826,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 31.488095238095244
+    },
+    {
+      "action": "Other high-dynamic motions",
+      "mpjpe": 54.02278682716346,
+      "pa_mpjpe": 49.33793336178728,
+      "root_mae": 26.766087355454943,
+      "velocity_mae": 2.1003193790494,
+      "acc_mae": 105.19838806124379,
+      "bone_viol_pct": 0.0,
+      "joint_viol_pct": 36.636904761904766
+    }
+  ]
+}
