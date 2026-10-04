@@ -1,0 +1,26 @@
+# Canonical UNO Q runtime configuration.
+# Keep hardware facts/configuration out of model source code.
+
+target: qrb2210_4gb
+
+qrb2210:
+  cpu_cores: 4
+  cpu_arch: cortex-a53
+  max_clock_hz: 2000000000
+  ram_bytes: 4294967296
+  emmc_bytes: 34359738368
+  gpu: adreno_702
+  os: debian-linux
+
+stm32u585:
+  cpu_arch: cortex-m33
+  max_clock_hz: 160000000
+  sram_bytes: 804864
+  flash_bytes: 2097152
+
+runtime:
+  model: v9
+  preferred_precision: int8_weight_only
+  sequence_length: 16
+  target_rate_hz: 30
+  require_hardware_benchmark: true
