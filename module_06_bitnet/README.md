@@ -1,119 +1,32 @@
-# Module 6 — BitNet / 1.58-Bit Model Optimization & Benchmarking
+# Module 6 — Low-Bit Runtime and Edge Hardware
 
-## Overview
+Module 6 contains low-bit experiments and deployment accounting for the current V9 PhotonNet architecture.
 
-Module 6 investigates whether the PhotonShield Mamba-Hybrid engine can be adapted to a BitNet-style low-bit architecture using approximately 1.58-bit ternary weights:
-$$W \in \{-1, 0, +1\}$$
+## Current canonical hardware targets
+- Arduino UNO Q QRB2210 4 GB / 32 GB — preferred inference host.
+- Arduino UNO Q QRB2210 2 GB / 16 GB — supported inference host.
+- Arduino UNO Q STM32U585 — deterministic acquisition/control domain.
+- ESP32-S3 — separate lightweight hardware test target; not the primary V9 inference host.
 
-> [!WARNING]
-> **Important Hardware & Storage Disclaimer**:
-> `1.58-bit` refers to the theoretical information content of ternary weights ($\log_2(3) \approx 1.585$ bits per symbol). It does **not** by itself guarantee 1.58-bit physical file storage, runtime tensor storage, 1.58-bit hardware arithmetic, or execution speedup. Dedicated hardware kernels are required for native ternary acceleration.
+The UNO Q must not be represented as a single 512 KB/64 KB MCU. Those values were a legacy profile and have been removed.
 
----
+## V9 low-bit reference
 
-## Conceptual Architecture Flow
+| Variant | Clean MPJPE | 16-frame gap | Weight size | Peak RAM |
+|---|---:|---:|---:|---:|
+| FP32 | 93.77 mm | 116.05 mm | 96.79 KB | 140.66 KB |
+| FP16 | 93.77 mm | 116.05 mm | 48.39 KB | 70.33 KB |
+| INT8 weight-only | 93.77 mm | 116.06 mm | 24.20 KB | 68.07 KB |
+| INT8 dynamic | 95.54 mm | 117.83 mm | 24.20 KB | 37.37 KB |
+| INT8 static | 95.55 mm | 117.84 mm | 24.20 KB | 37.37 KB |
+| INT4 weight-only | 93.86 mm | 116.14 mm | 12.10 KB | 55.97 KB |
 
-```
-                    FP32 CHECKPOINT (Module 5)
-                           │
-                           ▼
-                    Layer Inspection
-                           │
-                           ▼
-                  Selective Replacement
-                           │
-             ┌─────────────┴─────────────┐
-             ▼                           ▼
-        BitLinear                    FP32 layers
-     (Ternary Weights)           (Mamba Core, LN)
-             │                           │
-             └─────────────┬─────────────┘
-                           ▼
-                  BitNet-Compatible Model
-                           │
-               ┌───────────┴───────────┐
-               ▼                       ▼
-      Direct-Ternary PTQ        BitNet-Style QAT
-       (No fine-tuning)        (STE Fine-tuning)
-               │                       │
-               └───────────┬───────────┘
-                           ▼
-                 Module 5 Evaluator API
-               (Identical test dataset split)
-                           │
-                           ▼
-               FP32 / PTQ / QAT Comparison Matrix
-                           │
-            ┌──────────────┼──────────────┐
-            ▼              ▼              ▼
-         Accuracy        Memory         Latency
-```
+These are model-level measurements, not UNO Q hardware benchmarks.
 
----
+### Preferred reference
+Use INT8 weight-only as the current accuracy-preserving deployment candidate. Do not claim real-world speedup until measured on QRB2210.
 
-## Mathematical Formulation & Autograd
+## Legacy code policy
+Files or scripts that instantiate PhotonV0 are historical/legacy unless a research experiment explicitly targets that architecture. New deployment code must use the frozen V9 interface and its 136-D input / 66-D residual output.
 
-### 1. Scaling Strategy
-Weight scaling factor $S$:
-$$S = \text{compute\_weight\_scale}(W)$$
-
-- **`mean_abs`** (default): $S = \frac{1}{N} \sum_{i,j} |W_{ij}|$ (mean-absolute-weight scaling).
-- **`max_abs`**: $S = \max_{i,j} |W_{ij}|$.
-- Scope: `per_tensor` (scalar) or `per_channel` (vector along output dimension).
-
-### 2. Ternary Quantization
-Discrete ternary symbols $W_{\text{ternary}} \in \{-1, 0, +1\}$:
-$$W_{\text{ternary}} = \text{clip}\left(\text{round}\left(\frac{W}{S}\right), -1, +1\right)$$
-
-Scaled weight used in forward computation:
-$$W_{\text{quant}} = S \cdot W_{\text{ternary}}$$
-
-### 3. Straight-Through Estimator (STE)
-Because `round()` is non-differentiable (derivative is 0 almost everywhere), QAT uses an STE surrogate gradient:
-$$\frac{\partial L}{\partial W} = \frac{\partial L}{\partial W_{\text{quant}}}$$
-
-FP32 master weights $W$ remain trainable and receive updates during backpropagation. The forward pass uses $W_{\text{quant}}$.
-
----
-
-## Selective Layer Quantization Policy
-
-| Layer Component | Quantization Status | Precision | Rationale |
-|---|---|---|---|
-| Input Projection | **Ternary** | `BitLinear` | Primary feature projection |
-| Sensor Attention Q/K/V/O | **Ternary** | `BitLinear` | Cross-sensor interaction weights |
-| FFN Projections | **Ternary** | `BitLinear` | Largest parameter block |
-| Mamba Recurrent Core | **FP32** | `nn.Linear` / custom | Sensitive continuous state-space dynamics |
-| LayerNorm | **FP32** | `nn.LayerNorm` | Critical for numerical stability |
-| Task Head | **FP32** | `nn.Linear` | Output linear projection |
-
-> **Mamba Core Precision Note**: Selected linear layers are ternarized while the Mamba internal state-space operations remain at higher precision.
-
----
-
-## Experiment Matrix Labels
-
-- **`FP32 Baseline`**: Reference unquantized model trained in Module 5.
-- **`Direct-Ternary PTQ`**: Direct weight ternarization of FP32 weights without fine-tuning.
-- **`BitNet-Style QAT`**: Quantization-Aware Training initializing from FP32 weights and fine-tuning with STE.
-
----
-
-## CLI Reference
-
-```bash
-# Model Conversion
-python -m module_06_bitnet.convert --checkpoint checkpoints/fp32/model.pt --output checkpoints/bitnet/converted.pt
-
-# QAT Fine-Tuning
-python -m module_06_bitnet.train --checkpoint checkpoints/bitnet/converted.pt --epochs 5
-
-# Evaluation
-python -m module_06_bitnet.evaluate --checkpoint checkpoints/bitnet/bitnet_qat.pt
-
-# Comparison Matrix Generation
-python -m module_06_bitnet.compare --fp32 checkpoints/fp32/model.pt --output reports/bitnet
-
-# Profiling
-python -m module_06_bitnet.profile --bitnet checkpoints/bitnet/bitnet_qat.pt
-```
+MNN is not part of the deployment stack.
